@@ -1,0 +1,10 @@
+2023/10/28-12:26:19.554 ed9 Reusing MANIFEST /home/abhi/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/28-12:26:19.554 ed9 Recovering log #19
+2023/10/28-12:26:19.563 ed9 Reusing old log /home/abhi/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000019.log 
+2023/10/28-12:26:20.625 edb Level-0 table #24: started
+2023/10/28-12:26:20.637 edb Level-0 table #24: 1925657 bytes OK
+2023/10/28-12:26:20.640 edb Delete type=0 #19
+2023/10/28-12:33:26.542 ed9 Compacting 1@1 + 1@2 files
+2023/10/28-12:33:26.546 ed9 Generated table #25@1: 691 keys, 27368 bytes
+2023/10/28-12:33:26.546 ed9 Compacted 1@1 + 1@2 files => 27368 bytes
+2023/10/28-12:33:26.547 ed9 compacted to: files[ 0 0 1 0 0 0 0 ]
