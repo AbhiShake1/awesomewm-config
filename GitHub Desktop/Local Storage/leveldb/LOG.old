@@ -1,2 +1,3 @@
-2023/10/26-05:00:44.538 cb19d Creating DB /home/abhi/.config/GitHub Desktop/Local Storage/leveldb since it was missing.
-2023/10/26-05:00:44.542 cb19d Reusing MANIFEST /home/abhi/.config/GitHub Desktop/Local Storage/leveldb/MANIFEST-000001
+2024/01/21-11:46:55.135 b004 Reusing MANIFEST /home/abhi/.config/GitHub Desktop/Local Storage/leveldb/MANIFEST-000001
+2024/01/21-11:46:55.135 b004 Recovering log #3
+2024/01/21-11:46:55.135 b004 Reusing old log /home/abhi/.config/GitHub Desktop/Local Storage/leveldb/000003.log 
