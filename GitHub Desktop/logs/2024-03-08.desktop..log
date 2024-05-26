@@ -1,0 +1,23 @@
+2024-03-08T02:23:07.624Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2024-03-08T02:27:08.271Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/AbhiShake1/art-floyd.git/': Could not resolve host: github.com
+
+2024-03-08T02:27:09.106Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at ln (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at Xn.request (/home/abhi/webpack:/app/src/lib/api.ts:1757:28)
+    at Xn.fetchPushControl (/home/abhi/webpack:/app/src/lib/api.ts:1607:35)
+    at Ka.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1185:37)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5084:20
+    at Ka.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4551:5)
+    at Ka.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:5035:5)
+    at Tc.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2024-03-08T02:27:12.861Z - warn: [ui] getFetchPollInterval: failed for AbhiShake1/art-floyd
+TypeError: Failed to fetch
+    at ln (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at Xn.request (/home/abhi/webpack:/app/src/lib/api.ts:1757:28)
+    at Xn.getFetchPollInterval (/home/abhi/webpack:/app/src/lib/api.ts:1795:35)
+    at Tc.getFetchInterval (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at Tc.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2024-03-08T02:59:01.352Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch

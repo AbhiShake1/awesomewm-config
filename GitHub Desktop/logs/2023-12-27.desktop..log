@@ -1,0 +1,59 @@
+2023-12-27T01:03:24.244Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-27T01:38:19.548Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-27T01:39:35.469Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.090s)
+2023-12-27T01:39:36.481Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.006s)
+2023-12-27T02:09:28.990Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-27T02:11:45.530Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.059s)
+2023-12-27T02:11:47.064Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.527s)
+2023-12-27T13:21:58.298Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/AbhiShake1/myfyp.git/': Could not resolve host: github.com
+
+2023-12-27T13:21:58.367Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchPushControl (/home/abhi/webpack:/app/src/lib/api.ts:1616:35)
+    at ar.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1172:37)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5008:20
+    at ar.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4517:5)
+    at ar.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4959:5)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-12-27T13:21:58.371Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/AbhiShake1/myfyp/rulesets
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchAllRepoRulesets (/home/abhi/webpack:/app/src/lib/api.ts:1688:35)
+    at ar.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1177:40)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5003:32
+    at ar.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4517:5)
+    at ar.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4959:5)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-12-27T13:21:58.373Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/AbhiShake1/myfyp/rules/branches/main
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchRepoRulesForBranch (/home/abhi/webpack:/app/src/lib/api.ts:1667:35)
+    at ar.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1198:39)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5003:32
+    at ar.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4517:5)
+    at ar.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4959:5)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-12-27T13:21:58.598Z - warn: [ui] getFetchPollInterval: failed for AbhiShake1/myfyp
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.getFetchPollInterval (/home/abhi/webpack:/app/src/lib/api.ts:1804:35)
+    at Ho.getFetchInterval (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2023-12-27T13:22:03.746Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-27T14:14:55.557Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-27T14:14:57.823Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-27T14:19:47.298Z - info: [ui] [BranchPruner] No branches to prune.
+2023-12-27T14:19:48.605Z - info: [ui] Stats reported.
+2023-12-27T14:49:04.774Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.771s)
+2023-12-27T14:49:05.796Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.015s)
+2023-12-27T16:39:13.311Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.1s of which 89363.0s paused, total 89365.1s
+2023-12-27T16:46:18.966Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.2s of which 379.9s paused, total 382.1s
+2023-12-27T16:48:18.260Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.071s)
+2023-12-27T16:48:19.284Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.017s)

@@ -1,0 +1,41 @@
+2024-03-07T13:19:03.117Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.360s)
+2024-03-07T13:19:05.468Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.349s)
+2024-03-07T13:21:53.057Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.327s)
+2024-03-07T13:21:53.058Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-03-07T13:21:57.310Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 4.251s)
+2024-03-07T13:52:12.335Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 7.120s)
+2024-03-07T13:52:14.487Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.146s)
+2024-03-07T14:25:16.279Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.060s)
+2024-03-07T14:25:18.372Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.092s)
+2024-03-07T14:39:07.425Z - info: [ui] [BranchPruner] Last prune took place 22 hours ago - skipping
+2024-03-07T14:58:20.715Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.097s)
+2024-03-07T14:58:22.966Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.251s)
+2024-03-07T15:31:25.775Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.395s)
+2024-03-07T15:31:27.917Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.138s)
+2024-03-07T16:04:30.107Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.105s)
+2024-03-07T16:04:32.246Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.138s)
+2024-03-07T16:37:34.526Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.272s)
+2024-03-07T16:37:36.470Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.943s)
+2024-03-07T17:02:48.214Z - warn: [ui] getFetchPollInterval: failed for AbhiShake1/art-floyd
+TypeError: Failed to fetch
+    at ln (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at Xn.request (/home/abhi/webpack:/app/src/lib/api.ts:1757:28)
+    at Xn.getFetchPollInterval (/home/abhi/webpack:/app/src/lib/api.ts:1795:35)
+    at Tc.getFetchInterval (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at Tc.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2024-03-07T20:03:28.802Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2024-03-07T20:38:49.427Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch

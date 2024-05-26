@@ -1,0 +1,101 @@
+2024-02-18 16:38:07.434 [info] Getting Manifest... dart-code.dart-code
+2024-02-18 16:38:07.434 [info] Getting Manifest... dart-code.flutter
+2024-02-18 16:38:07.434 [info] Getting Manifest... felixangelov.bloc
+2024-02-18 16:38:07.453 [info] Installing extension: dart-code.dart-code
+2024-02-18 16:38:07.453 [info] Installing extension: dart-code.flutter
+2024-02-18 16:38:07.453 [info] Installing extension: felixangelov.bloc
+2024-02-18 16:38:07.737 [info] Started downloading extension: dart-code.dart-code 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/cursor-dart-code.dart-code-3.82.0
+2024-02-18 16:38:07.757 [info] Downloading extension to temp location: dart-code.dart-code 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.5332740f-5a77-489f-9a83-bd3c48c86f0c
+2024-02-18 16:38:07.760 [info] Started downloading extension: felixangelov.bloc 6.6.5 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/cursor-felixangelov.bloc-6.6.5
+2024-02-18 16:38:07.762 [info] Downloading extension to temp location: felixangelov.bloc 6.6.5 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.14d8cea1-6cb3-4678-bccc-b688a14e5511
+2024-02-18 16:38:09.293 [info] Started downloading extension: felixangelov.bloc 6.6.5 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/felixangelov.bloc-6.6.5.sigzip
+2024-02-18 16:38:09.293 [info] Downloading extension to temp location: felixangelov.bloc 6.6.5 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.0f52e2ae-7709-4fe4-9dec-d7897425642f
+2024-02-18 16:38:09.462 [info] Extension signature verification is not done: felixangelov.bloc
+2024-02-18 16:38:09.523 [info] Extracted extension to file:///home/abhi/.cursor/extensions/felixangelov.bloc-6.6.5: felixangelov.bloc
+2024-02-18 16:38:09.526 [info] Renamed to /home/abhi/.cursor/extensions/felixangelov.bloc-6.6.5
+2024-02-18 16:38:09.527 [info] Extracting extension completed. felixangelov.bloc
+2024-02-18 16:38:09.535 [info] Extension installed successfully: felixangelov.bloc
+2024-02-18 16:38:09.610 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp'
+    at r.create (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30445)
+    at o (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30559)
+    at i.fb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:36198)
+    at i.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:28644)
+    at async E.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:15754)
+    at async te.tb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:30581)
+2024-02-18 16:38:10.001 [info] Started downloading extension: dart-code.dart-code 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/dart-code.dart-code-3.82.0.sigzip
+2024-02-18 16:38:10.001 [info] Downloading extension to temp location: dart-code.dart-code 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.261ac50a-13f6-498c-a869-1afc90f15905
+2024-02-18 16:38:10.099 [info] Extension signature verification is not done: dart-code.dart-code
+2024-02-18 16:38:10.194 [info] Getting Manifest... dart-code.dart-code
+2024-02-18 16:38:10.277 [info] Started downloading extension: dart-code.flutter 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/cursor-dart-code.flutter-3.82.0
+2024-02-18 16:38:10.278 [info] Downloading extension to temp location: dart-code.flutter 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.c177474f-92f5-4114-9e87-daffb8c49baf
+2024-02-18 16:38:10.736 [info] Started downloading extension: dart-code.flutter 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/dart-code.flutter-3.82.0.sigzip
+2024-02-18 16:38:10.737 [info] Downloading extension to temp location: dart-code.flutter 3.82.0 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.474a775e-1e51-4d94-8784-b06da7adf5c9
+2024-02-18 16:38:10.825 [info] Extension signature verification is not done: dart-code.flutter
+2024-02-18 16:38:10.833 [info] Extracted extension to file:///home/abhi/.cursor/extensions/dart-code.flutter-3.82.0: dart-code.flutter
+2024-02-18 16:38:10.836 [info] Renamed to /home/abhi/.cursor/extensions/dart-code.flutter-3.82.0
+2024-02-18 16:38:10.838 [info] Extracting extension completed. dart-code.flutter
+2024-02-18 16:38:10.844 [info] Extension installed successfully: dart-code.flutter
+2024-02-18 16:38:10.918 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp'
+    at r.create (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30445)
+    at o (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30559)
+    at i.fb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:36198)
+    at i.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:28644)
+    at async E.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:15754)
+    at async te.tb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:30581)
+2024-02-18 16:38:17.076 [info] Extracted extension to file:///home/abhi/.cursor/extensions/dart-code.dart-code-3.82.0: dart-code.dart-code
+2024-02-18 16:38:17.084 [info] Renamed to /home/abhi/.cursor/extensions/dart-code.dart-code-3.82.0
+2024-02-18 16:38:17.087 [info] Extracting extension completed. dart-code.dart-code
+2024-02-18 16:38:17.094 [info] Extension installed successfully: dart-code.dart-code
+2024-02-18 16:38:17.169 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp'
+    at r.create (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30445)
+    at o (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30559)
+    at i.fb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:36198)
+    at i.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:28644)
+    at async E.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:15754)
+    at async te.tb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:30581)
+2024-02-18 16:38:19.946 [info] Uninstalling extension from the profile: felixangelov.bloc@6.6.5 vscode-userdata:/home/abhi/.cursor/extensions/extensions.json
+2024-02-18 16:38:19.962 [info] Marked extension as uninstalled felixangelov.bloc-6.6.5
+2024-02-18 16:38:20.031 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp'
+    at r.create (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30445)
+    at o (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30559)
+    at i.fb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:36198)
+    at i.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:28644)
+    at async E.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:15754)
+    at async te.tb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:30581)
+2024-02-18 16:38:20.201 [info] Successfully uninstalled extension from the profile felixangelov.bloc@6.6.5 vscode-userdata:/home/abhi/.cursor/extensions/extensions.json
+2024-02-18 16:38:31.947 [info] Getting Manifest... robert-brunhage.flutter-riverpod-snippets
+2024-02-18 16:38:31.954 [info] Installing extension: robert-brunhage.flutter-riverpod-snippets
+2024-02-18 16:38:32.107 [info] Started downloading extension: robert-brunhage.flutter-riverpod-snippets 1.2.2 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/cursor-robert-brunhage.flutter-riverpod-snippets-1.2.2
+2024-02-18 16:38:32.107 [info] Downloading extension to temp location: robert-brunhage.flutter-riverpod-snippets 1.2.2 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.9678802f-a997-43fd-910a-5adf7d4b2ea9
+2024-02-18 16:38:32.828 [info] Started downloading extension: robert-brunhage.flutter-riverpod-snippets 1.2.2 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/robert-brunhage.flutter-riverpod-snippets-1.2.2.sigzip
+2024-02-18 16:38:32.828 [info] Downloading extension to temp location: robert-brunhage.flutter-riverpod-snippets 1.2.2 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.cf8aaa4f-e706-4b04-96aa-cd4f5a9c7612
+2024-02-18 16:38:32.911 [info] Extension signature verification is not done: robert-brunhage.flutter-riverpod-snippets
+2024-02-18 16:38:32.930 [info] Extracted extension to file:///home/abhi/.cursor/extensions/robert-brunhage.flutter-riverpod-snippets-1.2.2: robert-brunhage.flutter-riverpod-snippets
+2024-02-18 16:38:32.932 [info] Renamed to /home/abhi/.cursor/extensions/robert-brunhage.flutter-riverpod-snippets-1.2.2
+2024-02-18 16:38:32.933 [info] Extracting extension completed. robert-brunhage.flutter-riverpod-snippets
+2024-02-18 16:38:32.941 [info] Extension installed successfully: robert-brunhage.flutter-riverpod-snippets
+2024-02-18 16:38:33.015 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp'
+    at r.create (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30445)
+    at o (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30559)
+    at i.fb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:36198)
+    at i.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:28644)
+    at async E.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:15754)
+    at async te.tb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:30581)
+2024-02-18 16:38:37.162 [info] Getting Manifest... houssembousmaha.riverpod
+2024-02-18 16:38:37.168 [info] Installing extension: houssembousmaha.riverpod
+2024-02-18 16:38:37.293 [info] Started downloading extension: houssembousmaha.riverpod 0.0.4 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/cursor-houssembousmaha.riverpod-0.0.4
+2024-02-18 16:38:37.296 [info] Downloading extension to temp location: houssembousmaha.riverpod 0.0.4 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.97050d34-33a2-476e-be0e-4092753ef3ea
+2024-02-18 16:38:38.096 [info] Started downloading extension: houssembousmaha.riverpod 0.0.4 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/houssembousmaha.riverpod-0.0.4.sigzip
+2024-02-18 16:38:38.099 [info] Downloading extension to temp location: houssembousmaha.riverpod 0.0.4 file:///home/abhi/.config/Cursor/CachedExtensionVSIXs/.6abf1752-99ee-4f77-901d-85ead7418d13
+2024-02-18 16:38:38.179 [info] Extension signature verification is not done: houssembousmaha.riverpod
+2024-02-18 16:38:38.214 [info] Extracted extension to file:///home/abhi/.cursor/extensions/houssembousmaha.riverpod-0.0.4: houssembousmaha.riverpod
+2024-02-18 16:38:38.216 [info] Renamed to /home/abhi/.cursor/extensions/houssembousmaha.riverpod-0.0.4
+2024-02-18 16:38:38.218 [info] Extracting extension completed. houssembousmaha.riverpod
+2024-02-18 16:38:38.228 [info] Extension installed successfully: houssembousmaha.riverpod
+2024-02-18 16:38:38.299 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/extensions.json.vsctmp'
+    at r.create (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30445)
+    at o (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30559)
+    at i.fb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:36198)
+    at i.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:28644)
+    at async E.stat (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:15754)
+    at async te.tb (/tmp/.mount_cursorqpg6eO/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:30581)

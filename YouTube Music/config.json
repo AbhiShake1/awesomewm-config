@@ -8,7 +8,7 @@
 		"x": 1,
 		"y": 42
 	},
-	"url": "https://music.youtube.com/watch?v=TSKGCKCkq5U&list=RDAMPLOLAK5uy_kFdWx9zNdW6BYVfRRzIEHpne05rxCjGcI&index=0",
+	"url": "https://music.youtube.com/watch?v=ytvUarkM6rw&list=RDTMAK5uy_nGQKSMIkpr4o9VI_2i56pkGliD6FQRo50&index=0",
 	"options": {
 		"tray": false,
 		"appVisible": true,
@@ -80,7 +80,9 @@
 			"playOnYouTubeMusic": true,
 			"hideGitHubButton": false,
 			"hideDurationLeft": false,
-			"listenAlong": true
+			"listenAlong": true,
+			"activityTimeoutEnabled": true,
+			"activityTimeoutTime": 600000
 		},
 		"downloader": {
 			"enabled": true,
@@ -283,7 +285,7 @@
 	},
 	"__internal__": {
 		"migrations": {
-			"version": "2.2.0"
+			"version": "3.3.6"
 		}
 	}
 }

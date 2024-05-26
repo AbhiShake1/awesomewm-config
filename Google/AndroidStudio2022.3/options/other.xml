@@ -1,0 +1,91 @@
+<application>
+  <component name="PropertyService">{
+  &quot;keyToString&quot;: {
+    &quot;DART_CHECK_SDK_UPDATE_KEY&quot;: &quot;DoNotCheck&quot;,
+    &quot;ExpandBeforeRunStepsPanel&quot;: &quot;true&quot;,
+    &quot;FLUTTER_LAST_SURVEY_CONTENT_CHECK_KEY&quot;: &quot;1708747321183&quot;,
+    &quot;FindSplitterProportion&quot;: &quot;0.32998565&quot;,
+    &quot;LayoutCode.codeCleanup&quot;: &quot;true&quot;,
+    &quot;LayoutCode.optimizeImports&quot;: &quot;true&quot;,
+    &quot;LayoutCode.processChangedText&quot;: &quot;false&quot;,
+    &quot;LayoutCode.rearrangeEntriesDart&quot;: &quot;false&quot;,
+    &quot;MarketplacePluginsSearchHistory&quot;: &quot;flutter\nfl\nfkutter\nfkuttwr\nfku&quot;,
+    &quot;MemberChooser.copyJavadoc&quot;: &quot;false&quot;,
+    &quot;MemberChooser.showClasses&quot;: &quot;true&quot;,
+    &quot;NextRunPlatformUpdateBuild&quot;: &quot;AI-231.9392.1.2311.11330709&quot;,
+    &quot;NextRunPlatformUpdateVersion&quot;: &quot;Hedgehog | 2023.1.1 Patch 2&quot;,
+    &quot;NonModalCommitCustomization.IsApplied&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.test.framework.showIndexingAsTask&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.se.text.search&quot;: &quot;true&quot;,
+    &quot;SAVED_ANDROID_NPW_LANGUAGE&quot;: &quot;Kotlin&quot;,
+    &quot;SettingsSearchHistory&quot;: &quot;line length\nfl\nformat&quot;,
+    &quot;android.sdk.path&quot;: &quot;/home/abhi/Android/Sdk&quot;,
+    &quot;appcds.runOnSecondStart&quot;: &quot;AI-223.8836.35.2231.11090377-3061b4d27e9bca62409f11a8fdc45833d453703f1af3b74615d4193617ab14e4&quot;,
+    &quot;ask.about.ctrl.y.shortcut.v2&quot;: &quot;true&quot;,
+    &quot;bundled.plugins.list.saved.version&quot;: &quot;AI-223.8836.35.2231.11090377&quot;,
+    &quot;com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep&quot;: &quot;IntelliJ&quot;,
+    &quot;com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep&quot;: &quot;Java&quot;,
+    &quot;defaultJdkConfigured&quot;: &quot;true&quot;,
+    &quot;file.gist.reindex.count&quot;: &quot;32&quot;,
+    &quot;fileTypeChangedCounter&quot;: &quot;1&quot;,
+    &quot;fontSizeToResetConsole&quot;: &quot;13.0&quot;,
+    &quot;fontSizeToResetEditor&quot;: &quot;13.0&quot;,
+    &quot;got.it.tooltip.reader.mode.got.it&quot;: &quot;1&quot;,
+    &quot;gotit.previous.run&quot;: &quot;AI-223.8836.35.2231.11090377&quot;,
+    &quot;input.method.disabler.muted&quot;: &quot;true&quot;,
+    &quot;installed.kotlin.plugin.version&quot;: &quot;223-1.9.0-release-358-AS8836.35.2231.11090377&quot;,
+    &quot;io.flutter.allowTestsInSources&quot;: &quot;true&quot;,
+    &quot;io.flutter.analytics.clientId&quot;: &quot;962e2792-dda1-44f3-896e-c622ea9a760b&quot;,
+    &quot;io.flutter.analytics.toastShown&quot;: &quot;true&quot;,
+    &quot;io.flutter.console.preferencesSet&quot;: &quot;true&quot;,
+    &quot;io.flutter.fontPackages&quot;: &quot;&quot;,
+    &quot;io.flutter.formatCodeOnSave&quot;: &quot;true&quot;,
+    &quot;io.flutter.organizeImportsOnSave&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;Android API 34, extension level 7 Platform&quot;,
+    &quot;kotlin.lastUpdateCheck&quot;: &quot;1703900995705&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/abhi/proj/flutter/otto&quot;,
+    &quot;newly.installed.api.level&quot;: &quot;30&quot;,
+    &quot;previousColorScheme&quot;: &quot;_@user_Darcula&quot;,
+    &quot;project.wizard.group&quot;: &quot;JAVA_MODULE_io.flutter.module.FlutterModuleBuilder&quot;,
+    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;AI-223.8836.35.2231.11090377&quot;,
+    &quot;tasks.pass.word.conversion.enforced&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DART_SDK_KNOWN_PATHS&quot;: [
+      &quot;/opt/flutter/bin/cache/dart-sdk&quot;
+    ],
+    &quot;FLUTTER_SDK_KNOWN_PATHS&quot;: [
+      &quot;/&quot;,
+      &quot;/opt/flutter&quot;
+    ],
+    &quot;file.chooser.recent.files&quot;: [
+      &quot;/home/abhi/proj/flutter/dummy&quot;,
+      &quot;/home/abhi/proj/flutter/edm_flutter&quot;,
+      &quot;/home/abhi/proj/svelte/tuktuk&quot;,
+      &quot;/home/abhi/proj/flutter/otto&quot;
+    ],
+    &quot;fileTypeDetectors&quot;: [
+      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
+      &quot;com.jetbrains.cidr.lang.OCHeaderFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector&quot;,
+      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
+    ]
+  }
+}</component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;Kotlin_project&quot;: 1700895325317
+  }
+}</component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="edm_flutter-history" project-path="$USER_HOME$/proj/flutter/edm_flutter" last-access-time="1708751432931" />
+      <command-history-file filename="edm_flutter-history1" project-path="$USER_HOME$/proj/flutter/edm_flutter" last-access-time="1708751432936" />
+      <command-history-file filename="macros-history" project-path="$USER_HOME$/proj/flutter/macros" last-access-time="1708834377984" />
+      <command-history-file filename="edm_flutter-history2" project-path="$USER_HOME$/proj/flutter/edm_flutter" last-access-time="1708751432938" />
+      <command-history-file filename="edm_flutter-history8" project-path="$USER_HOME$/proj/flutter/edm_flutter" last-access-time="1708751432939" />
+      <command-history-file filename="dummy-history" project-path="$USER_HOME$/proj/flutter/dummy" last-access-time="1707652731944" />
+    </command-history-files>
+  </component>
+</application>

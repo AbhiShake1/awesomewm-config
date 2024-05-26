@@ -1,0 +1,10 @@
+2024-02-18 16:23:15.888 [info] update#setState disabled
+2024-02-18 16:23:15.890 [info] update#ctor - updates are disabled as there is no update URL
+2024-02-18 16:23:15.900 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-02-18 16:23:15.901 [error] [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+2024-02-18 16:23:15.914 [error] [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+2024-02-18 16:23:15.915 [error] Error: SQLITE_CANTOPEN: unable to open database file
+2024-02-18 16:24:21.758 [info] Extension host with pid 605466 exited with code: 0, signal: unknown.
+2024-02-18 16:24:45.972 [info] Extension host with pid 605971 exited with code: 0, signal: unknown.
+2024-02-18 16:24:45.994 [info] Extension host with pid 605956 exited with code: 0, signal: unknown.
+2024-02-18 16:24:46.005 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 605946]: crashed with code 15 and reason 'killed'

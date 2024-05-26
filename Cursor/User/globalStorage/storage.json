@@ -1,0 +1,64 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/abhi/.cursor-tutor": "__default__profile__",
+            "file:///home/abhi/proj/flutter/edm_flutter": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "fb7d74cf746b5cee8a95c36fa1ca02cddcac07963fac5841865294b92bd680c1",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/abhi/.cursor-tutor"
+            },
+            {
+                "folderUri": "file:///home/abhi/proj/flutter/edm_flutter"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#181818",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#d6d6dd",
+            "background": "#181818",
+            "editorBackground": "#181818",
+            "titleBarBackground": "#292929",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#181818"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 239,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/abhi/.cursor-tutor",
+            "backupPath": "/home/abhi/.config/Cursor/Backups/3247b76a88c0e4739bc3b495828e33f4",
+            "uiState": {
+                "mode": 1,
+                "x": 1,
+                "y": 42,
+                "width": 1918,
+                "height": 1157
+            }
+        },
+        "openedWindows": []
+    }
+}

@@ -1,0 +1,58 @@
+2023-12-24T04:04:46.201Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.054s)
+2023-12-24T04:04:47.224Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.016s)
+2023-12-24T04:34:58.959Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.036s)
+2023-12-24T04:34:59.977Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.012s)
+2023-12-24T05:05:21.408Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.016s)
+2023-12-24T05:05:22.431Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.016s)
+2023-12-24T05:11:45.431Z - info: [ui] [BranchPruner] No branches to prune.
+2023-12-24T05:11:46.673Z - info: [ui] Stats reported.
+2023-12-24T05:35:34.130Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.030s)
+2023-12-24T05:35:35.154Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.018s)
+2023-12-24T07:11:27.905Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.020s)
+2023-12-24T07:11:28.925Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.014s)
+2023-12-24T08:24:33.532Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.201s)
+2023-12-24T08:24:34.656Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.118s)
+2023-12-24T08:54:47.221Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.399s)
+2023-12-24T08:54:48.243Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.017s)
+2023-12-24T09:39:08.883Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-24T09:39:10.398Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-24T09:43:48.151Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.057s)
+2023-12-24T09:43:49.174Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.016s)
+2023-12-24T09:52:57.321Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.2s of which 0.0s paused, total 2.2s
+2023-12-24T09:53:15.201Z - info: [ui] [Timing] Action 'create commit' for 'AbhiShake1/myfyp' took 0.202s
+2023-12-24T09:53:16.508Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-24T09:53:18.520Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.006s)
+2023-12-24T09:53:19.652Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.130s)
+2023-12-24T09:53:20.774Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.120s)
+2023-12-24T10:01:37.683Z - info: [ui] [Timing] Action 'create commit' for 'AbhiShake1/myfyp' took 0.161s
+2023-12-24T10:01:38.816Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-24T10:01:41.005Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.179s)
+2023-12-24T10:01:42.133Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.119s)
+2023-12-24T10:01:43.155Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.020s)
+2023-12-24T11:00:07.049Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.270s)
+2023-12-24T11:00:08.144Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.088s)
+2023-12-24T11:07:18.779Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-12-24T11:30:21.565Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.010s)
+2023-12-24T11:30:22.651Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.079s)
+2023-12-24T11:41:15.326Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.8s of which 0.0s paused, total 1.8s
+2023-12-24T11:41:53.710Z - info: [ui] [Timing] Action 'create commit' for 'AbhiShake1/myfyp' took 0.185s
+2023-12-24T11:41:54.809Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-24T11:41:56.902Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.079s)
+2023-12-24T11:41:58.037Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.124s)
+2023-12-24T11:41:59.156Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.118s)
+2023-12-24T12:48:26.895Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-24T12:51:01.003Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.316s)
+2023-12-24T12:51:02.058Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.048s)
+2023-12-24T13:21:26.273Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 12.287s)
+2023-12-24T13:21:26.276Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/AbhiShake1/myfyp.git/': Failure when receiving data from the peer
+
+2023-12-24T13:21:27.906Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.629s)
+2023-12-24T13:26:36.470Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 4.229s)
+2023-12-24T13:26:38.487Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.009s)
+2023-12-24T13:30:47.893Z - info: [ui] [BranchPruner] Last prune took place 8 hours ago - skipping
+2023-12-24T14:05:44.987Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.096s)
+2023-12-24T14:07:50.195Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.1s of which 7861.2s paused, total 7863.3s
+2023-12-24T14:07:52.390Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.1s of which 0.0s paused, total 1.1s
+2023-12-24T14:07:55.669Z - info: [ui] No submodules found. Skipping "git submodule status"

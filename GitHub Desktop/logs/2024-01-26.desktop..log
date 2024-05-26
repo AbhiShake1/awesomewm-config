@@ -1,0 +1,78 @@
+2024-01-26T06:51:47.543Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-01-26T06:51:47.590Z - info: [ui] [AppStore] found account: AbhiShake1 (onFire(Abhi))
+2024-01-26T06:51:50.734Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2024-01-26T06:51:52.207Z - info: [ui] launching: 3.3.6-linux3 (Linux 6.5.8-arch1-1)
+2024-01-26T06:51:52.212Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-01-26T06:51:53.576Z - info: [ui] Stats reported.
+2024-01-26T06:51:56.347Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.783s)
+2024-01-26T06:51:56.356Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-26T06:51:58.473Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.837s)
+2024-01-26T06:52:04.893Z - info: [ui] [AppStore] removing account AbhiShake1 (onFire(Abhi)) from store
+2024-01-26T06:52:04.956Z - info: [ui] Unubscribed 'AbhiShake1' from Alive channel
+2024-01-26T06:52:08.041Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-01-26T06:52:08.178Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=811c2508-2841-4f30-aac2-82f5a191f682
+2024-01-26T06:52:38.479Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-01-26T06:52:38.662Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=5ef2272e-45f7-462a-a7bf-6799afb516b7
+2024-01-26T06:52:42.565Z - info: [main] Received possible protocol arguments: 3
+2024-01-26T06:52:42.574Z - info: [main] Processing protocol url
+2024-01-26T06:52:42.577Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-01-26T06:52:42.584Z - warn: [ui] requestAuthenticatedUser was not called with valid OAuth state. This is likely due to a browser reloading the callback URL. Contact GitHub Support if you believe this is an error
+2024-01-26T06:52:45.300Z - info: [main] Received possible protocol arguments: 2
+2024-01-26T06:52:45.358Z - info: [main] Processing protocol url
+2024-01-26T06:52:56.854Z - info: [main] Received possible protocol arguments: 3
+2024-01-26T06:52:56.857Z - info: [main] Processing protocol url
+2024-01-26T06:52:56.870Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-01-26T06:52:59.855Z - info: [main] Received possible protocol arguments: 2
+2024-01-26T06:53:00.009Z - info: [main] Processing protocol url
+2024-01-26T06:53:00.793Z - info: [ui] [SignInStore] account resolved
+2024-01-26T06:53:00.798Z - info: [ui] [AppStore] adding account AbhiShake1 (onFire(Abhi)) to store
+2024-01-26T06:53:01.928Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2024-01-26T06:53:20.624Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.017s)
+2024-01-26T06:53:20.643Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-26T06:53:22.995Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.340s)
+2024-01-26T06:53:36.467Z - info: [ui] storing generic credentials for 'www.github.com' and 'abhishake1'
+2024-01-26T06:53:38.768Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.158s)
+2024-01-26T06:53:38.781Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-26T06:53:41.017Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.208s)

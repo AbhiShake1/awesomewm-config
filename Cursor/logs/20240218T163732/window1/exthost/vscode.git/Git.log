@@ -1,0 +1,97 @@
+2024-02-18 16:37:35.449 [info] Log level: Info
+2024-02-18 16:37:35.449 [info] Validating found git in: "git"
+2024-02-18 16:37:35.449 [info] Using git "2.42.0" from "git"
+2024-02-18 16:37:35.449 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-18 16:37:35.449 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-18 16:37:35.449 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-18 16:37:35.449 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-18 16:37:35.449 [info] > git rev-parse --show-toplevel [35ms]
+2024-02-18 16:37:35.449 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-18 16:37:35.458 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-18 16:37:35.458 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-18 16:37:51.991 [info] Log level: Info
+2024-02-18 16:37:51.991 [info] Validating found git in: "git"
+2024-02-18 16:37:51.991 [info] Using git "2.42.0" from "git"
+2024-02-18 16:37:51.991 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-18 16:37:51.991 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-02-18 16:37:51.991 [info] Open repository: /home/abhi/proj/flutter/edm_flutter
+2024-02-18 16:37:51.991 [info] > git config --get commit.template [12ms]
+2024-02-18 16:37:51.993 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-18 16:37:52.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-02-18 16:37:52.463 [info] > git rev-parse --show-toplevel [449ms]
+2024-02-18 16:37:52.504 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-18 16:37:52.524 [info] > git status -z -uall [10ms]
+2024-02-18 16:37:52.542 [info] > git rev-parse --show-toplevel [19ms]
+2024-02-18 16:37:52.552 [info] > git config --get commit.template [9ms]
+2024-02-18 16:37:52.555 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-18 16:37:52.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-02-18 16:37:52.578 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:37:52.605 [info] > git rev-parse --show-toplevel [14ms]
+2024-02-18 16:37:52.620 [info] > git status -z -uall [16ms]
+2024-02-18 16:37:52.623 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-18 16:37:52.638 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-18 16:37:52.651 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-18 16:37:52.662 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-18 16:37:52.675 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:37:52.685 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-18 16:37:52.695 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:37:52.704 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-18 16:37:52.713 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-18 16:37:52.979 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-18 16:37:58.149 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-18 16:37:59.023 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-18 16:37:59.928 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-18 16:38:01.540 [info] > git show --textconv :lib/app/components/components.dart [12ms]
+2024-02-18 16:38:01.541 [info] > git ls-files --stage -- /home/abhi/proj/flutter/edm_flutter/lib/app/components/components.dart [1ms]
+2024-02-18 16:38:01.552 [info] > git cat-file -s 2e6f386b5c8abda43fd4e052eb295be9ddb347b6 [2ms]
+2024-02-18 16:38:39.155 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-02-18 16:38:39.176 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [4ms]
+2024-02-18 16:38:45.970 [info] > git show --textconv :lib/app/components/components.dart [20ms]
+2024-02-18 16:38:45.974 [info] > git ls-files --stage -- /home/abhi/proj/flutter/edm_flutter/lib/app/components/components.dart [6ms]
+2024-02-18 16:38:45.994 [info] > git cat-file -s 2e6f386b5c8abda43fd4e052eb295be9ddb347b6 [2ms]
+2024-02-18 16:39:47.589 [info] Log level: Info
+2024-02-18 16:39:47.589 [info] Validating found git in: "git"
+2024-02-18 16:39:47.589 [info] Using git "2.42.0" from "git"
+2024-02-18 16:39:47.589 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-18 16:39:55.391 [info] > git rev-parse --git-dir --git-common-dir [7792ms]
+2024-02-18 16:39:55.402 [info] Open repository: /home/abhi/proj/flutter/edm_flutter
+2024-02-18 16:39:55.488 [info] > git rev-parse --show-toplevel [17ms]
+2024-02-18 16:39:55.488 [info] > git config --get commit.template [29ms]
+2024-02-18 16:39:55.536 [info] > git rev-parse --show-toplevel [29ms]
+2024-02-18 16:39:55.569 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-18 16:39:55.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-02-18 16:39:55.612 [info] > git rev-parse --show-toplevel [23ms]
+2024-02-18 16:39:55.635 [info] > git status -z -uall [26ms]
+2024-02-18 16:39:55.642 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-18 16:39:55.700 [info] > git config --get commit.template [8ms]
+2024-02-18 16:39:55.701 [info] > git rev-parse --show-toplevel [29ms]
+2024-02-18 16:39:55.761 [info] > git rev-parse --show-toplevel [34ms]
+2024-02-18 16:39:55.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-02-18 16:39:55.783 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:39:55.824 [info] > git rev-parse --show-toplevel [22ms]
+2024-02-18 16:39:55.868 [info] > git status -z -uall [24ms]
+2024-02-18 16:39:55.868 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-18 16:39:55.904 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-18 16:39:55.953 [info] > git check-ignore -v -z --stdin [22ms]
+2024-02-18 16:39:55.956 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-18 16:39:55.980 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:39:56.001 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:39:56.020 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:39:56.041 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-18 16:39:56.063 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-18 16:39:56.111 [info] > git show --textconv :lib/app/components/components.dart [25ms]
+2024-02-18 16:39:56.112 [info] > git ls-files --stage -- /home/abhi/proj/flutter/edm_flutter/lib/app/components/components.dart [7ms]
+2024-02-18 16:39:56.132 [info] > git cat-file -s 2e6f386b5c8abda43fd4e052eb295be9ddb347b6 [2ms]
+2024-02-18 16:40:46.984 [info] > git show --textconv :lib/app/components/sage_button.dart [12ms]
+2024-02-18 16:40:46.985 [info] > git ls-files --stage -- /home/abhi/proj/flutter/edm_flutter/lib/app/components/sage_button.dart [2ms]
+2024-02-18 16:40:46.995 [info] > git cat-file -s 52e74edb6e6be9a12c751e8bfbad770a27b04896 [1ms]
+2024-02-18 16:41:42.713 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-18 16:41:45.423 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-18 16:41:56.500 [info] > git config --get commit.template [9ms]
+2024-02-18 16:41:56.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-18 16:41:56.519 [info] > git status -z -uall [7ms]
+2024-02-18 16:44:06.928 [info] > git check-ignore -v -z --stdin [2ms]

@@ -1,0 +1,175 @@
+2024-01-14T03:29:43.670Z - info: [ui] [AppStore] loading 5 repositories from store
+2024-01-14T03:29:43.673Z - info: [ui] [AppStore] found account: AbhiShake1 (onFire(Abhi))
+2024-01-14T03:29:43.768Z - info: [ui] [BranchPruner] No branches to prune.
+2024-01-14T03:29:43.855Z - info: [ui] launching: 3.3.6-linux3 (Linux 6.5.8-arch1-1)
+2024-01-14T03:29:43.858Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-01-14T03:29:44.674Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2024-01-14T03:29:44.986Z - info: [ui] Stats reported.
+2024-01-14T03:29:59.276Z - info: [ui] [AppStore] adding repository at /home/abhi/proj/next/captain to store
+2024-01-14T03:30:00.186Z - info: [ui] [BranchPruner] No branches to prune.
+2024-01-14T03:30:01.471Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.022s)
+2024-01-14T03:30:01.590Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: captain - AbhiShake1 (has token)
+2024-01-14T03:30:03.516Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.916s)
+2024-01-14T03:30:03.516Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 2: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-14T03:30:09.277Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: captain - AbhiShake1 (has token)
+2024-01-14T03:30:10.228Z - info: [ui] [AppStore] removing account AbhiShake1 (onFire(Abhi)) from store
+2024-01-14T03:30:10.243Z - info: [ui] Unubscribed 'AbhiShake1' from Alive channel
+2024-01-14T03:30:11.081Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.804s)
+2024-01-14T03:30:11.082Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 2: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-14T03:30:12.075Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-01-14T03:30:12.081Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=e3cbd760-ffb1-446c-8ada-d34d1f900721
+2024-01-14T03:30:12.938Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.855s)
+2024-01-14T03:30:12.938Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 5.8s of which 0.0s paused, total 5.8s
+2024-01-14T03:30:13.285Z - info: [main] Received possible protocol arguments: 3
+2024-01-14T03:30:13.285Z - info: [main] Processing protocol url
+2024-01-14T03:30:13.285Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-01-14T03:30:13.382Z - info: [main] Received possible protocol arguments: 2
+2024-01-14T03:30:13.384Z - info: [main] Processing protocol url
+2024-01-14T03:30:14.974Z - info: [ui] [SignInStore] account resolved
+2024-01-14T03:30:14.974Z - info: [ui] [AppStore] adding account AbhiShake1 (onFire(Abhi)) to store
+2024-01-14T03:30:15.999Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2024-01-14T03:30:18.448Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: captain - AbhiShake1 (has token)
+2024-01-14T03:30:20.308Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.851s)
+2024-01-14T03:30:20.309Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 2: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-14T03:30:25.757Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: captain - AbhiShake1 (has token)
+2024-01-14T03:30:27.778Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 2.014s)
+2024-01-14T03:30:27.779Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 2: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-14T03:31:19.070Z - error: [ui] `git config -z --local user.name` exited with an unexpected code: 128.
+stderr:
+fatal: --local can only be used inside a git repository
+
+2024-01-14T03:31:19.070Z - error: [ui] `git remote -v` exited with an unexpected code: 128.
+stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2024-01-14T03:31:19.099Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2024-01-14T03:31:19.128Z - error: [ui] `git for-each-ref --format=%00%(refname)%00%(objectname)%00%(upstream)%00%(symref)%00%(HEAD)%00 refs/heads refs/remotes` exited with an unexpected code: 128.
+stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2024-01-14T03:31:19.657Z - error: [ui] Branch fast-forwarding failed
+GitError: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+    at /home/abhi/webpack:/app/src/lib/git/core.ts:247:11
+    at /home/abhi/webpack:/app/src/lib/trampoline/trampoline-environment.ts:61:13
+    at /home/abhi/webpack:/app/src/lib/trampoline/trampoline-tokens.ts:33:5
+    at /home/abhi/webpack:/app/src/lib/git/for-each-ref.ts:90:9
+    at Ga.fastForwardBranches (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4690:13)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5021:18
+    at Ga.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4543:5)
+    at Ga.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4985:5)
+    at Rc.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2024-01-14T03:31:19.662Z - warn: [ui] fetchRepository: 'AbhiShake1/captain' returned a 404
+2024-01-14T03:31:19.665Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at ln (/home/abhi/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchProtectedBranches (/home/abhi/webpack:/app/src/lib/api.ts:1619:7)
+    at Ga.updateBranchProtectionsFromAPI (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4130:11)
+2024-01-14T03:31:19.665Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2024-01-14T03:31:20.103Z - warn: [ui] fetchAll: 'repos/AbhiShake1/captain/issues?state=open' returned a 404
+2024-01-14T03:31:20.104Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at ln (/home/abhi/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchPushControl (/home/abhi/webpack:/app/src/lib/api.ts:1593:7)
+    at Ga.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1178:39)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5029:32
+    at Ga.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4543:5)
+    at Ga.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4985:5)
+    at Rc.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2024-01-14T03:31:20.612Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/AbhiShake1/captain/rulesets
+Error: Not Found
+    at ln (/home/abhi/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchAllRepoRulesets (/home/abhi/webpack:/app/src/lib/api.ts:1663:7)
+    at Ga.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1182:15)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5029:32
+    at Ga.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4543:5)
+    at Ga.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4985:5)
+    at Rc.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2024-01-14T03:31:21.023Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/AbhiShake1/captain/rules/branches/main
+Error: Not Found
+    at ln (/home/abhi/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchRepoRulesForBranch (/home/abhi/webpack:/app/src/lib/api.ts:1642:7)
+    at Ga.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1203:15)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5029:32
+    at Ga.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4543:5)
+    at Ga.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4985:5)
+    at Rc.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2024-01-14T03:31:21.805Z - info: [ui] [BranchPruner] No branches to prune.
+2024-01-14T03:31:22.564Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.012s)
+2024-01-14T03:31:23.607Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.042s)
+2024-01-14T03:32:03.437Z - info: [ui] [AppStore] adding repository at /home/abhi/proj/next/captain to store
+2024-01-14T03:32:14.388Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.815s)
+2024-01-14T03:32:15.408Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.018s)
+2024-01-14T03:32:16.428Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.017s)
+2024-01-14T03:32:17.309Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping

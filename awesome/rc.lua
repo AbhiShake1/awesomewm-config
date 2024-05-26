@@ -176,10 +176,12 @@ awful.keyboard.append_global_keybindings({
     end,
     { description = "focus next by index", group = "client" }
   ),
-  awful.key({ modkey, "Control" }, "j", function() awful.screen.focus_relative(1) end,
+  awful.key({ modkey }, "Up", function() awful.screen.focus_relative(1) end,
     { description = "focus the next screen", group = "screen" }),
-  awful.key({ modkey, "Control" }, "k", function() awful.screen.focus_relative(-1) end,
+  awful.key({ modkey }, "Down", function() awful.screen.focus_relative(-1) end,
     { description = "focus the previous screen", group = "screen" }),
+  awful.key({ modkey }, "l", function() awful.spawn("xlock") end,
+    { description = "lock screen", group = "screen" }),
   awful.key({ modkey, "Control" }, "n",
     function()
       local c = awful.client.restore()
@@ -256,7 +258,6 @@ awful.keyboard.append_global_keybindings({
     awful.spawn.with_shell("scrcpy -S --power-off-on-close --window-x 10")
   end,
     { description = "run scrcpy", group = "launcher" }),
-
 
   awful.key({ modkey }, "z", function()
     awful.spawn.with_shell("sh ~/.config/awesome/kpolybar.sh")
@@ -412,65 +413,51 @@ ruled.client.connect_signal("request::rules", function()
     properties = { titlebars_enabled = false }
   }
 
-  ruled.client.append_rule {
-    rule_any   = {
-      class = { "firefox" }
-    },
-    properties = { screen = 1 }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "chromium" },
-    properties = { screen = 1, tag = "4",floating = true }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "Steam" },
-    properties = { screen = 1, tag = "4", floating = true }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "discord" },
-    properties = { screen = 1, tag = "2" }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "discord-screenaudio" },
-    properties = { screen = 1, tag = "2" }
-  }
-  ruled.client.append_rule {
-    rule_any   = {
-      instance = { "youtube music" }
-    },
-    properties = { screen = 1, tag = "3" }
-  }
-  ruled.client.append_rule {
-    rule_any = {
-      class = { "thunderbird" }
-    },
-    properties = { screen = 1, tag = "3" }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "vscodium" },
-    properties = { screen = 1, tag = "4" }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "dolphin-emu" },
-    properties = { floating = true }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "Windscribe" },
-    properties = { floating = true }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "feh" },
-    properties = { floating = true }
-  }
-  ruled.client.append_rule {
-    rule       = { instance = "nm-connection-editor" },
-    properties = { floating = true }
-  }
-
-  ruled.client.append_rule {
-    rule       = { instance = "scrcpy" },
-    properties = { floating = true }
-  }
+  -- ruled.client.append_rule {
+  --   rule_any   = {
+  --     class = { "firefox" }
+  --   },
+  --   properties = { screen = 1 }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "discord" },
+  --   properties = { screen = 1, tag = "2" }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "discord-screenaudio" },
+  --   properties = { screen = 1, tag = "2" }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule_any   = {
+  --     instance = { "youtube music" }
+  --   },
+  --   properties = { screen = 1, tag = "3" }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "vscodium" },
+  --   properties = { screen = 1, tag = "4" }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "dolphin-emu" },
+  --   properties = { floating = true }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "Windscribe" },
+  --   properties = { floating = true }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "feh" },
+  --   properties = { floating = true }
+  -- }
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "nm-connection-editor" },
+  --   properties = { floating = true }
+  -- }
+  --
+  -- ruled.client.append_rule {
+  --   rule       = { instance = "scrcpy" },
+  --   properties = { floating = true }
+  -- }
   ruled.client.append_rule {
     rule       = { instance = "polybar" },
     properties = { border_width = 0 }

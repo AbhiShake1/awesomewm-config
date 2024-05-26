@@ -1,0 +1,217 @@
+2024-02-18 16:23:16.854 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-18 16:23:16.904 [warning] Missing property "linterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.904 [warning] Missing property "bigCmdKEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.905 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.905 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.905 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.905 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.905 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.906 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.907 [warning] Missing property "agentDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.907 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.907 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.907 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.907 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.907 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.908 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.908 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.908 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.908 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.908 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.908 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.908 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.909 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.909 [warning] Missing property "SPECIAL_KEY_lastUpdatedTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.909 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.909 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.909 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.909 [warning] Missing property "chatContextDisplayMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.909 [warning] Missing property "cmdKContextDisplayMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "adaCmdKContext" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "doNotUseFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "repositoryData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:16.910 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:23:17.078 [error] [uncaught exception in main]: SQLITE_CANTOPEN: unable to open database file: Error: SQLITE_CANTOPEN: unable to open database file
+2024-02-18 16:23:17.103 [error] Unable to resolve nonexistent file '/home/abhi/.vscode/extensions': Error: Unable to resolve nonexistent file '/home/abhi/.vscode/extensions'
+    at n.resolve (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:865:14828)
+    at async me (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:22526:39082)
+2024-02-18 16:23:17.121 [info] Started local extension host with pid 605466.
+2024-02-18 16:23:17.156 [info] Started initializing default profile extensions in extensions installation folder. file:///home/abhi/.cursor/extensions
+2024-02-18 16:23:17.383 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/abhi/.cursor/extensions
+2024-02-18 16:23:18.607 [error] [unauthenticated] User provided no bearer token: ConnectError: [unauthenticated] User provided no bearer token
+    at d (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:4:106391)
+    at vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:4:111770
+    at async vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:20955:28152
+    at async vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:20955:13679
+    at async Object.unary (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:4:111159)
+    at async Object.cppConfig (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:5:519)
+    at async Ue.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:22641:1619)
+2024-02-18 16:23:20.349 [info] [perf] Render performance baseline is 20ms
+2024-02-18 16:23:58.085 [info] Starting polling for login
+2024-02-18 16:23:58.287 [info] Beginning of Login Poll
+2024-02-18 16:23:58.486 [info] Beginning of Login Poll
+2024-02-18 16:23:58.685 [info] Beginning of Login Poll
+2024-02-18 16:23:58.855 [info] Got login result 404
+2024-02-18 16:23:58.886 [info] Beginning of Login Poll
+2024-02-18 16:23:59.086 [info] Beginning of Login Poll
+2024-02-18 16:23:59.112 [info] Got login result 404
+2024-02-18 16:23:59.286 [info] Beginning of Login Poll
+2024-02-18 16:23:59.370 [info] Got login result 404
+2024-02-18 16:23:59.486 [info] Beginning of Login Poll
+2024-02-18 16:23:59.627 [info] Got login result 404
+2024-02-18 16:23:59.686 [info] Beginning of Login Poll
+2024-02-18 16:23:59.884 [info] Got login result 404
+2024-02-18 16:23:59.885 [info] Beginning of Login Poll
+2024-02-18 16:24:00.085 [info] Beginning of Login Poll
+2024-02-18 16:24:00.206 [info] Got login result 404
+2024-02-18 16:24:00.286 [info] Beginning of Login Poll
+2024-02-18 16:24:00.468 [info] Got login result 404
+2024-02-18 16:24:00.486 [info] Beginning of Login Poll
+2024-02-18 16:24:00.686 [info] Beginning of Login Poll
+2024-02-18 16:24:00.733 [info] Got login result 404
+2024-02-18 16:24:00.885 [info] Beginning of Login Poll
+2024-02-18 16:24:00.993 [info] Got login result 404
+2024-02-18 16:24:01.086 [info] Beginning of Login Poll
+2024-02-18 16:24:01.250 [info] Got login result 404
+2024-02-18 16:24:01.285 [info] Beginning of Login Poll
+2024-02-18 16:24:01.486 [info] Beginning of Login Poll
+2024-02-18 16:24:01.549 [info] Got login result 404
+2024-02-18 16:24:01.685 [info] Beginning of Login Poll
+2024-02-18 16:24:01.857 [info] Got login result 404
+2024-02-18 16:24:01.885 [info] Beginning of Login Poll
+2024-02-18 16:24:01.964 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2024-02-18 16:24:02.086 [info] Beginning of Login Poll
+2024-02-18 16:24:02.117 [info] Got login result 404
+2024-02-18 16:24:02.286 [info] Beginning of Login Poll
+2024-02-18 16:24:02.375 [info] Got login result 404
+2024-02-18 16:24:02.485 [info] Beginning of Login Poll
+2024-02-18 16:24:02.686 [info] Beginning of Login Poll
+2024-02-18 16:24:02.886 [info] Beginning of Login Poll
+2024-02-18 16:24:03.085 [info] Beginning of Login Poll
+2024-02-18 16:24:03.118 [error] ENOENT: no such file or directory, open '/home/abhi/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/abhi/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2024-02-18 16:24:03.285 [info] Beginning of Login Poll
+2024-02-18 16:24:03.485 [info] Beginning of Login Poll
+2024-02-18 16:24:03.685 [info] Beginning of Login Poll
+2024-02-18 16:24:03.886 [info] Beginning of Login Poll
+2024-02-18 16:24:04.086 [info] Beginning of Login Poll
+2024-02-18 16:24:04.286 [info] Beginning of Login Poll
+2024-02-18 16:24:04.486 [info] Beginning of Login Poll
+2024-02-18 16:24:04.686 [info] Beginning of Login Poll
+2024-02-18 16:24:04.886 [info] Beginning of Login Poll
+2024-02-18 16:24:05.086 [info] Beginning of Login Poll
+2024-02-18 16:24:05.286 [info] Beginning of Login Poll
+2024-02-18 16:24:05.486 [info] Beginning of Login Poll
+2024-02-18 16:24:05.687 [info] Beginning of Login Poll
+2024-02-18 16:24:05.886 [info] Beginning of Login Poll
+2024-02-18 16:24:06.086 [info] Beginning of Login Poll
+2024-02-18 16:24:06.285 [info] Beginning of Login Poll
+2024-02-18 16:24:06.486 [info] Beginning of Login Poll
+2024-02-18 16:24:06.686 [info] Beginning of Login Poll
+2024-02-18 16:24:06.885 [info] Beginning of Login Poll
+2024-02-18 16:24:07.085 [info] Beginning of Login Poll
+2024-02-18 16:24:07.286 [info] Beginning of Login Poll
+2024-02-18 16:24:07.486 [info] Beginning of Login Poll
+2024-02-18 16:24:07.686 [info] Beginning of Login Poll
+2024-02-18 16:24:07.886 [info] Beginning of Login Poll
+2024-02-18 16:24:08.086 [info] Beginning of Login Poll
+2024-02-18 16:24:08.285 [info] Beginning of Login Poll
+2024-02-18 16:24:08.486 [info] Beginning of Login Poll
+2024-02-18 16:24:08.686 [info] Beginning of Login Poll
+2024-02-18 16:24:08.885 [info] Beginning of Login Poll
+2024-02-18 16:24:09.085 [info] Beginning of Login Poll
+2024-02-18 16:24:09.286 [info] Beginning of Login Poll
+2024-02-18 16:24:09.486 [info] Beginning of Login Poll
+2024-02-18 16:24:09.686 [info] Beginning of Login Poll
+2024-02-18 16:24:09.885 [info] Beginning of Login Poll
+2024-02-18 16:24:10.086 [info] Beginning of Login Poll
+2024-02-18 16:24:10.286 [info] Beginning of Login Poll
+2024-02-18 16:24:10.486 [info] Beginning of Login Poll
+2024-02-18 16:24:10.685 [info] Beginning of Login Poll
+2024-02-18 16:24:10.886 [info] Beginning of Login Poll
+2024-02-18 16:24:11.086 [info] Beginning of Login Poll
+2024-02-18 16:24:11.286 [info] Beginning of Login Poll
+2024-02-18 16:24:11.486 [info] Beginning of Login Poll
+2024-02-18 16:24:11.686 [info] Beginning of Login Poll
+2024-02-18 16:24:11.886 [info] Beginning of Login Poll
+2024-02-18 16:24:12.086 [info] Beginning of Login Poll
+2024-02-18 16:24:12.285 [info] Beginning of Login Poll
+2024-02-18 16:24:12.485 [info] Beginning of Login Poll
+2024-02-18 16:24:12.685 [info] Beginning of Login Poll
+2024-02-18 16:24:12.886 [info] Beginning of Login Poll
+2024-02-18 16:24:13.086 [info] Beginning of Login Poll
+2024-02-18 16:24:13.285 [info] Beginning of Login Poll
+2024-02-18 16:24:13.485 [info] Beginning of Login Poll
+2024-02-18 16:24:13.685 [info] Beginning of Login Poll
+2024-02-18 16:24:13.886 [info] Beginning of Login Poll
+2024-02-18 16:24:14.086 [info] Beginning of Login Poll
+2024-02-18 16:24:14.285 [info] Beginning of Login Poll
+2024-02-18 16:24:14.485 [info] Beginning of Login Poll
+2024-02-18 16:24:14.686 [info] Beginning of Login Poll
+2024-02-18 16:24:14.885 [info] Beginning of Login Poll
+2024-02-18 16:24:15.085 [info] Beginning of Login Poll
+2024-02-18 16:24:15.285 [info] Beginning of Login Poll
+2024-02-18 16:24:15.485 [info] Beginning of Login Poll
+2024-02-18 16:24:15.686 [info] Beginning of Login Poll
+2024-02-18 16:24:15.885 [info] Beginning of Login Poll
+2024-02-18 16:24:16.086 [info] Beginning of Login Poll
+2024-02-18 16:24:16.285 [info] Beginning of Login Poll
+2024-02-18 16:24:16.485 [info] Beginning of Login Poll
+2024-02-18 16:24:16.685 [info] Beginning of Login Poll
+2024-02-18 16:24:16.886 [info] Beginning of Login Poll
+2024-02-18 16:24:17.085 [info] Beginning of Login Poll
+2024-02-18 16:24:17.286 [info] Beginning of Login Poll
+2024-02-18 16:24:17.486 [info] Beginning of Login Poll
+2024-02-18 16:24:17.685 [info] Beginning of Login Poll
+2024-02-18 16:24:17.886 [info] Beginning of Login Poll
+2024-02-18 16:24:18.086 [info] Beginning of Login Poll
+2024-02-18 16:24:18.286 [info] Beginning of Login Poll
+2024-02-18 16:24:18.486 [info] Beginning of Login Poll
+2024-02-18 16:24:18.685 [info] Beginning of Login Poll
+2024-02-18 16:24:18.885 [info] Beginning of Login Poll
+2024-02-18 16:24:19.086 [info] Beginning of Login Poll
+2024-02-18 16:24:19.286 [info] Beginning of Login Poll
+2024-02-18 16:24:19.486 [info] Beginning of Login Poll
+2024-02-18 16:24:19.686 [info] Beginning of Login Poll
+2024-02-18 16:24:19.886 [info] Beginning of Login Poll
+2024-02-18 16:24:20.085 [info] Beginning of Login Poll
+2024-02-18 16:24:20.286 [info] Beginning of Login Poll
+2024-02-18 16:24:20.485 [info] Beginning of Login Poll
+2024-02-18 16:24:20.685 [info] Beginning of Login Poll
+2024-02-18 16:24:20.886 [info] Beginning of Login Poll
+2024-02-18 16:24:21.086 [info] Beginning of Login Poll
+2024-02-18 16:24:21.286 [info] Beginning of Login Poll
+2024-02-18 16:24:21.486 [info] Beginning of Login Poll
+2024-02-18 16:24:21.548 [info] Got login result 200
+2024-02-18 16:24:21.549 [info] Got login json {"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkN1VWI0NkVHT3BHaXI4TDh3VkRQRCJ9.eyJpc3MiOiJodHRwczovL2N1cnNvci51cy5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDYxOTM1MzA2MTI3Mjc0OTMyMjQiLCJhdWQiOlsiaHR0cHM6Ly9jdXJzb3IudXMuYXV0aDAuY29tL2FwaS92Mi8iLCJodHRwczovL2N1cnNvci51cy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzA4MjczNDU2LCJleHAiOjE3MDk0ODMwNTYsImF6cCI6IktiWlVSNDFjWTdXNnpSU2RwU1VKN0k3bUxZQktPQ21CIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyJ9.xiYKdYcWaUfdWYw3lGxTQWte7nMBiJjFyRd-u1NXrB1be8MKqNHEAbqtSUcQYOTVpVxzanpr_2Jc-5UOdDkKjQlM4NpaKU2leDvTwelOhoHQR_zyB5sgvKP_EBY0x_SyfD3aqe8HiuXRPpEQjiV2b8YpReirtuuc6waHAB9wol1puv5De9EHam8j6U1nUhqzaycNqjaB2NdNGN9omRZ6gCRB4HCwGy0IT4_O30sWVzn7lQcDtKxn4K4ZFBHleqfAV2O_LNpWbKlUMFKU83-3sS9eLb5gfmSegXo6hm-0hrg4nhxkEmH818_6IcffoRY2C5bD7THiVxOYbUEsO4jDbQ","refreshToken":"3rBJlBOzgrhAwp5wzp_xBAxm1aK5BHVBvS9W7euwFkeah","challenge":"YNUVHAuQkJfTWxb7c2xVDXAv-B2TIf2cLC_ctP9I4AQ","authId":"google-oauth2|106193530612727493224","uuid":"19de4911-780e-4481-8aab-3961513e3ef2"}
+2024-02-18 16:24:21.616 [error] Cannot read properties of undefined (reading 'uri'): TypeError: Cannot read properties of undefined (reading 'uri')
+    at U.setRepoInfo (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:21330:13427)
+2024-02-18 16:24:21.685 [info] Beginning of Login Poll
+2024-02-18 16:24:22.641 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-18 16:24:22.701 [warning] Missing property "repositoryData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:24:22.702 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:24:22.702 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:24:22.702 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:24:22.702 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-02-18 16:24:22.874 [info] Started local extension host with pid 605956.
+2024-02-18 16:24:22.914 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2024-02-18 16:24:23.046 [info] Started local extension host with pid 605971.
+2024-02-18 16:24:23.519 [error] Error: The editor could not be opened because the file was not found.
+    at O.fc (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:21643:18388)
+    at async O.setInput (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:21643:17474)
+    at async w.S (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:21641:23055)
+    at async w.L (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:21641:21646)
+    at async w.openEditor (vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:21641:20612)
+    at async vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/out/vs/workbench/workbench.desktop.main.js:22404:63194
+2024-02-18 16:24:24.421 [error] ENOENT: no such file or directory, open '/home/abhi/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/abhi/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2024-02-18 16:24:26.159 [info] [perf] Render performance baseline is 20ms

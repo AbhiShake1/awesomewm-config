@@ -1,0 +1,5 @@
+---
+"editor_view:select_all": ctrl-shift-A
+"editor_view:move_to_line_end": ctrl-e
+"workspace:toggle_ai_assistant": ctrl-tab
+"editor_view:move_to_line_start": ctrl-a

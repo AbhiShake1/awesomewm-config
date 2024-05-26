@@ -1,0 +1,69 @@
+2023-12-25T01:43:30.644Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.136s)
+2023-12-25T02:14:53.160Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.327s)
+2023-12-25T02:14:54.200Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.032s)
+2023-12-25T02:16:54.068Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.9s of which 1.4s paused, total 3.3s
+2023-12-25T13:13:43.157Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/AbhiShake1/myfyp.git/': Could not resolve host: github.com
+
+2023-12-25T13:13:43.657Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchPushControl (/home/abhi/webpack:/app/src/lib/api.ts:1616:35)
+    at ar.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1172:37)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5008:20
+    at ar.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4517:5)
+    at ar.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4959:5)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-12-25T13:13:43.661Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/AbhiShake1/myfyp/rulesets
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchAllRepoRulesets (/home/abhi/webpack:/app/src/lib/api.ts:1688:35)
+    at ar.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1177:40)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5003:32
+    at ar.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4517:5)
+    at ar.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4959:5)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-12-25T13:13:43.663Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/AbhiShake1/myfyp/rules/branches/main
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchRepoRulesForBranch (/home/abhi/webpack:/app/src/lib/api.ts:1667:35)
+    at ar.refreshBranchProtectionState (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:1198:39)
+    at /home/abhi/webpack:/app/src/lib/stores/app-store.ts:5003:32
+    at ar.withPushPullFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4517:5)
+    at ar.performFetch (/home/abhi/webpack:/app/src/lib/stores/app-store.ts:4959:5)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2023-12-25T13:13:43.858Z - warn: [ui] getFetchPollInterval: failed for AbhiShake1/myfyp
+TypeError: Failed to fetch
+    at Bt (/home/abhi/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/abhi/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.getFetchPollInterval (/home/abhi/webpack:/app/src/lib/api.ts:1804:35)
+    at Ho.getFetchInterval (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at Ho.performAndScheduleFetch (/home/abhi/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2023-12-25T14:45:54.451Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.085s)
+2023-12-25T14:45:55.460Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.000s)
+2023-12-25T15:05:16.789Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.4s of which 999.2s paused, total 1001.5s
+2023-12-25T15:15:52.408Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.2s of which 538.1s paused, total 540.4s
+2023-12-25T15:16:03.453Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-12-25T15:46:21.800Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.107s)
+2023-12-25T15:46:23.495Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.687s)
+2023-12-25T16:16:38.002Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.140s)
+2023-12-25T16:16:39.025Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.016s)
+2023-12-25T16:44:27.469Z - info: [ui] [BranchPruner] No branches to prune.
+2023-12-25T16:44:28.950Z - info: [ui] Stats reported.
+2023-12-25T17:22:46.823Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/AbhiShake1/myfyp.git/': Could not resolve host: github.com
+
+2023-12-25T17:22:52.965Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 6.141s)
+2023-12-25T17:43:19.107Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.014s)
+2023-12-25T17:43:20.131Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.018s)
+2023-12-25T18:00:56.287Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.9s of which 8887.0s paused, total 8889.9s
+2023-12-25T18:13:32.715Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.024s)
+2023-12-25T18:19:18.124Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.0s of which 216.9s paused, total 218.9s
+2023-12-25T18:19:26.108Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-12-25T18:19:46.789Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-12-25T18:20:19.853Z - info: [ui] No submodules found. Skipping "git submodule status"

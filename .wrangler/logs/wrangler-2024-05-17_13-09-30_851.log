@@ -1,0 +1,367 @@
+
+--- 2024-05-17T13:09:30.960Z debug
+🪵  Writing logs to "/home/abhi/.config/.wrangler/logs/wrangler-2024-05-17_13-09-30_851.log"
+---
+
+--- 2024-05-17T13:09:30.960Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.open (node:internal/fs/sync:78:18)
+    at Object.openSync (node:fs:565:17)
+    at Object.readFileSync (node:fs:445:35)
+    at tryLoadDotEnv (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:124353:72)
+    at loadDotEnv (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:124362:12)
+    at /home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:164011:20
+    at /home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:131396:16
+    at maybeAsyncResult (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:129617:44)
+    at /home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:131395:14
+    at /home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:129604:22 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-05-17T13:09:32.125Z log
+ ⛅️ wrangler 3.34.2 (update available [32m3.57.0[39m)
+[38;2;255;136;0m-------------------------------------------------------[39m
+---
+
+--- 2024-05-17T13:09:32.185Z warn
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+---
+
+--- 2024-05-17T13:09:35.454Z log
+Your choice has been saved in the following file: ../../../.config/.wrangler/metrics.json.
+
+  You can override the user level setting for a project in `wrangler.toml`:
+
+   - to disable sending metrics for a project: `send_metrics = false`
+   - to enable sending metrics for a project: `send_metrics = true`
+---
+
+--- 2024-05-17T13:09:35.454Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"type":"event","name":"run dev","properties":{"local":true,"usesTypeScript":true}}.
+---
+
+--- 2024-05-17T13:09:35.455Z debug
+Failed to load .env file "/home/abhi/proj/hono/vision/.dev.vars": Error: ENOENT: no such file or directory, open '/home/abhi/proj/hono/vision/.dev.vars'
+    at Object.open (node:internal/fs/sync:78:18)
+    at Object.openSync (node:fs:565:17)
+    at Object.readFileSync (node:fs:445:35)
+    at tryLoadDotEnv (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:124353:72)
+    at loadDotEnv (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:124362:12)
+    at getVarsForDev (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:161686:18)
+    at getBindings (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:169301:10)
+    at getBindingsAndAssetPaths (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:169257:20)
+    at getDevReactElement (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:168929:40)
+    at startDev (/home/abhi/proj/hono/vision/node_modules/wrangler/wrangler-dist/cli.js:168993:60) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/abhi/proj/hono/vision/.dev.vars'
+}
+---
+
+--- 2024-05-17T13:09:35.565Z log
+[2m⎔ Starting local server...[22m
+---
+
+--- 2024-05-17T13:09:35.983Z info
+[32mGET[0m  /api/product
+[32mGET[0m  /api/product-with-pool
+---
+
+--- 2024-05-17T13:09:36.048Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadStart"}
+---
+
+--- 2024-05-17T13:09:36.049Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadComplete","proxyData":{"userWorkerUrl":{"protocol":"http:","hostname":"127.0.0.1","port":"42063"},"userWorkerInspectorUrl":{"protocol":"ws:","hostname":"127.0.0.1","port":"38703","pathname":"/core:user:my-app"},"userWorkerInnerUrlOverrides":{"protocol":"http"},"headers":{"MF-Proxy-Shared-Secret":"44c7f690-b56b-4322-95f0-04a327ada6d7"},"liveReload":false,"proxyLogsToController":false,"internalDurableObjects":[]}}
+---
+
+--- 2024-05-17T13:09:36.050Z debug
+[InspectorProxyWorker] reconnectRuntimeWebSocket
+---
+
+--- 2024-05-17T13:09:36.052Z debug
+[InspectorProxyWorker] NEW RUNTIME WEBSOCKET http://127.0.0.1:38703/core:user:my-app
+---
+
+--- 2024-05-17T13:09:36.054Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.executionContextCreated',
+  params: {
+    context: {
+      id: 137505313,
+      origin: '',
+      name: 'Worker',
+      uniqueId: '-3551033078743990529.1971828704700490653'
+    }
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.055Z debug
+[InspectorProxyWorker] SEND TO DEVTOOLS {"method":"Runtime.executionContextsCleared"}
+---
+
+--- 2024-05-17T13:09:36.056Z debug
+[InspectorProxyWorker] RUNTIME WEBSOCKET OPENED
+---
+
+--- 2024-05-17T13:09:36.057Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.enable","id":100000001}
+---
+
+--- 2024-05-17T13:09:36.058Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Debugger.enable","id":100000002}
+---
+
+--- 2024-05-17T13:09:36.059Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Network.enable","id":100000003}
+---
+
+--- 2024-05-17T13:09:36.059Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.consoleAPICalled',
+  params: {
+    type: 'log',
+    args: [ [Object] ],
+    executionContextId: 137505313,
+    timestamp: 0,
+    stackTrace: { callFrames: [Array] }
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.060Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.consoleAPICalled',
+  params: {
+    type: 'log',
+    args: [ [Object] ],
+    executionContextId: 137505313,
+    timestamp: 0,
+    stackTrace: { callFrames: [Array] }
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.061Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000001, result: {} }
+---
+
+--- 2024-05-17T13:09:36.069Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '3',
+    url: 'file:///home/abhi/proj/hono/vision/.wrangler/tmp/dev-BxCatY/index.js',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 19601,
+    endColumn: 82,
+    executionContextId: 137505313,
+    hash: '37a0195d575e87637deabeb6baf2f1d110125f410f90e71a62b393f830c33a91',
+    isLiveEdit: false,
+    sourceMapURL: 'index.js.map',
+    hasSourceURL: true,
+    isModule: true,
+    length: 601169,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'index.js'
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.070Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '4',
+    url: 'node-internal:internal_inspect',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 2219,
+    endColumn: 0,
+    executionContextId: 137505313,
+    hash: '4f93aab68d9e0a0ad4a3276376f81843fbc26acaabaca9dd0debb1e416d684e8',
+    isLiveEdit: false,
+    sourceMapURL: '',
+    hasSourceURL: false,
+    isModule: true,
+    length: 89685,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'node-internal:internal_inspect'
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.071Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '5',
+    url: 'node-internal:internal_buffer',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 1709,
+    endColumn: 0,
+    executionContextId: 137505313,
+    hash: '9621ec975892d3bca9453d74ef53577eeba6a67b2ccaad23ad4ddb4f0a0786d1',
+    isLiveEdit: false,
+    sourceMapURL: '',
+    hasSourceURL: false,
+    isModule: true,
+    length: 61179,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'node-internal:internal_buffer'
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.071Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '6',
+    url: 'node-internal:internal_types',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 115,
+    endColumn: 0,
+    executionContextId: 137505313,
+    hash: '9cf7c9384c0629ca99014f24a79fdd954ca7b50ed6425159d029d249d5a1e923',
+    isLiveEdit: false,
+    sourceMapURL: '',
+    hasSourceURL: false,
+    isModule: true,
+    length: 5065,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'node-internal:internal_types'
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.071Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '7',
+    url: 'node-internal:validators',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 164,
+    endColumn: 0,
+    executionContextId: 137505313,
+    hash: 'a278e95ed0aac7941e9a22a500c741f35e38210962b1645d7365d20bbd5adc14',
+    isLiveEdit: false,
+    sourceMapURL: '',
+    hasSourceURL: false,
+    isModule: true,
+    length: 6571,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'node-internal:validators'
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.072Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '8',
+    url: 'node-internal:internal_errors',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 443,
+    endColumn: 0,
+    executionContextId: 137505313,
+    hash: 'dffaa5e9f9588d77e0dc47fffd1b6bb2935ac00d81d4b789608ffc478102c56f',
+    isLiveEdit: false,
+    sourceMapURL: '',
+    hasSourceURL: false,
+    isModule: true,
+    length: 15653,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'node-internal:internal_errors'
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.072Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '9',
+    url: 'node-internal:internal_utils',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 207,
+    endColumn: 0,
+    executionContextId: 137505313,
+    hash: 'cc03bacc35d5a77d3d362adbabf94fb719629d131bcb82140d6494af9bf29e32',
+    isLiveEdit: false,
+    sourceMapURL: '',
+    hasSourceURL: false,
+    isModule: true,
+    length: 6853,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'node-internal:internal_utils'
+  }
+}
+---
+
+--- 2024-05-17T13:09:36.073Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  id: 100000002,
+  result: { debuggerId: '8326404166779472776.2311179541435384868' }
+}
+---
+
+--- 2024-05-17T13:09:36.073Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000003, method: 'Network.enable', result: {} }
+---
+
+--- 2024-05-17T13:09:46.054Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000004}
+---
+
+--- 2024-05-17T13:09:46.055Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000004, result: { id: 'a4c31feba215aafa' } }
+---
+
+--- 2024-05-17T13:09:56.061Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.getIsolateId","id":100000005}
+---
+
+--- 2024-05-17T13:09:56.062Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000005, result: { id: 'a4c31feba215aafa' } }
+---
+
+--- 2024-05-17T13:09:57.046Z debug
+Not Implemented Error: ConfigController#teardown
+---
+
+--- 2024-05-17T13:09:57.046Z debug
+Not Implemented Error: BundlerController#teardown
+---
+
+--- 2024-05-17T13:09:57.046Z debug
+Not Implemented Error: LocalRuntimeController#teardown
+---
+
+--- 2024-05-17T13:09:57.046Z debug
+Not Implemented Error: RemoteRuntimeController#teardown
+---
+
+--- 2024-05-17T13:09:57.046Z debug
+ProxyController teardown
+---
+
+--- 2024-05-17T13:09:57.050Z log
+[2m⎔ Shutting down local server...[22m
+---

@@ -1,0 +1,30 @@
+{
+  "welcomeShown": true,
+  "bannerDismissed": [],
+  "logSizeLimit": 10000,
+  "maxLogsPerEnvironment": 50,
+  "truncateRouteName": true,
+  "mainMenuSize": 100,
+  "secondaryMenuSize": 200,
+  "fakerLocale": "en",
+  "fakerSeed": null,
+  "lastChangelog": "6.0.1",
+  "environments": [
+    {
+      "uuid": "8b9b9d60-0024-4a6e-beb1-3c874c1a2608",
+      "path": "/home/abhi/.config/mockoon/storage/demo.json"
+    },
+    {
+      "uuid": "b08328db-9029-4e4b-89f1-3ca223cfcb1c",
+      "path": "/home/abhi/proj/flutter/edm_flutter/misc/mocks/sage_mock.json"
+    }
+  ],
+  "disabledRoutes": {},
+  "collapsedFolders": {},
+  "enableTelemetry": true,
+  "storagePrettyPrint": true,
+  "fileWatcherEnabled": "disabled",
+  "dialogWorkingDir": "/home/abhi/proj/flutter/edm_flutter/misc/mocks",
+  "startEnvironmentsOnLoad": false,
+  "logTransactions": false
+}

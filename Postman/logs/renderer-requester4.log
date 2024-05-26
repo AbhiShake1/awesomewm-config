@@ -1,0 +1,3 @@
+[85985][1716149337750][requester][info]["SyncManagerNew~setSync",true]
+[85985][1716149337751][requester][info]["SyncManagerNew~signIn",{"forceConnect":true}]
+[85985][1716149337751][requester][info]["SyncManagerNew~createSocket",{"forceConnect":true}]

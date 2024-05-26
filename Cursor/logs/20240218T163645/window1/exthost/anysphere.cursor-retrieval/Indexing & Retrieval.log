@@ -1,0 +1,20 @@
+2024-02-18 16:36:48.472 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:430:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-02-18 16:36:48.472 [info] Running command: editHistoryDiffFormatter.ack with args: {}
+2024-02-18 16:36:48.692 [info] Creating merkle client.
+2024-02-18 16:36:48.692 [info] Done creating merkle client.
+2024-02-18 16:36:48.692 [info] Doing a startup handshake.
+2024-02-18 16:36:48.698 [info] Finished initializing merkle tree in 6.42170899361372 ms.
+2024-02-18 16:36:48.699 [info] Doing the initial handshake with hash: 8c94d97de64d80b77e0182a43fbed82b9b7a80c7fd4098082cdd66be43662060
+2024-02-18 16:36:49.919 [info] Handshake result:
+2024-02-18 16:36:49.920 [info] Starting fast remote sync.
+2024-02-18 16:36:49.920 [info] Total num embeddable files: 11
+2024-02-18 16:36:49.920 [info] Root hash: 8c94d97de64d80b77e0182a43fbed82b9b7a80c7fd4098082cdd66be43662060
+2024-02-18 16:36:49.920 [info] Finished indexing repository.
+2024-02-18 16:36:49.920 [info] Indexing job successfully done or aborted.

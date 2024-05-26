@@ -1,0 +1,70 @@
+2024-01-21T11:46:55.489Z - info: [ui] [AppStore] loading 6 repositories from store
+2024-01-21T11:46:55.493Z - info: [ui] [AppStore] found account: AbhiShake1 (onFire(Abhi))
+2024-01-21T11:46:55.900Z - info: [ui] launching: 3.3.6-linux3 (Linux 6.5.8-arch1-1)
+2024-01-21T11:46:55.901Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-01-21T11:46:56.460Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2024-01-21T11:46:56.975Z - info: [ui] Stats reported.
+2024-01-21T11:46:58.319Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.042s)
+2024-01-21T11:46:59.347Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.026s)
+2024-01-21T11:47:34.731Z - info: [ui] [AppStore] adding repository at /home/abhi/proj/flutter/edm_flutter to store
+2024-01-21T11:47:36.737Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 3.4s of which 0.0s paused, total 3.4s
+2024-01-21T11:48:02.011Z - info: [ui] [Timing] Action 'create commit' for 'edm_flutter' took 0.408s
+2024-01-21T11:48:04.144Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.326s)
+2024-01-21T11:48:43.018Z - info: [ui] [AppStore] removing account AbhiShake1 (onFire(Abhi)) from store
+2024-01-21T11:48:43.022Z - info: [ui] Unubscribed 'AbhiShake1' from Alive channel
+2024-01-21T11:48:44.527Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-01-21T11:48:44.531Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=04818bca-bb2d-44cb-8887-a289bf7361b8
+2024-01-21T11:48:45.597Z - info: [main] Received possible protocol arguments: 3
+2024-01-21T11:48:45.597Z - info: [main] Processing protocol url
+2024-01-21T11:48:45.598Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-01-21T11:48:47.452Z - info: [ui] [SignInStore] account resolved
+2024-01-21T11:48:47.453Z - info: [ui] [AppStore] adding account AbhiShake1 (onFire(Abhi)) to store
+2024-01-21T11:48:48.272Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2024-01-21T11:48:52.572Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.210s)
+2024-01-21T11:49:01.748Z - info: [ui] storing generic credentials for 'www.github.com' and 'abhishake1'
+2024-01-21T11:49:03.022Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.257s)
+2024-01-21T11:49:13.631Z - info: [ui] storing generic credentials for 'www.github.com' and 'abhishake1'
+2024-01-21T11:49:14.998Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.347s)
+2024-01-21T11:49:40.380Z - info: [ui] storing generic credentials for 'www.github.com' and 'AbhiShake1'
+2024-01-21T11:49:41.621Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.228s)
+2024-01-21T12:04:39.905Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 3.4s of which 0.0s paused, total 3.4s
+2024-01-21T12:05:18.609Z - info: [ui] [Timing] Action 'create commit' for 'edm_flutter' took 0.094s
+2024-01-21T12:13:04.761Z - info: [ui] [Timing] Action 'create commit' for 'edm_flutter' took 0.092s
+2024-01-21T12:35:47.117Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.299s)
+2024-01-21T12:35:47.118Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-21T12:35:48.348Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.229s)
+2024-01-21T12:51:08.008Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 6.3s of which 1180.8s paused, total 1187.0s
+2024-01-21T12:51:36.064Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.312s)
+2024-01-21T12:51:36.065Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-01-21T12:51:37.291Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.225s)
+2024-01-21T12:51:37.304Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 5.8s of which 0.0s paused, total 5.8s
+2024-01-21T12:51:43.939Z - info: [ui] [Timing] Action 'create commit' for 'edm_flutter' took 0.103s
+2024-01-21T12:51:46.246Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.162s)

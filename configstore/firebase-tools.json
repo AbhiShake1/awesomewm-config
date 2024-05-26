@@ -1,0 +1,36 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1700894841797
+	},
+	"additionalAccounts": [],
+	"activeAccounts": {},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "106193530612727493224",
+		"email": "abhi.shake.np@gmail.com",
+		"email_verified": true,
+		"at_hash": "hKjq3CaElEXVRYDj-rhIzw",
+		"iat": 1700895170,
+		"exp": 1700898770
+	},
+	"tokens": {
+		"expires_at": 1700914317453,
+		"refresh_token": "1//0gIrtCECB-ntACgYIARAAGBASNwF-L9IrHxiZAQW5YxWwcaRInTaWdvixwj-vymYb2SXn3wTZ4SWhoi4li1ckIWTFYf8h3iU6x-k",
+		"scopes": [],
+		"access_token": "ya29.a0AfB_byCje9iql7ROK1NVgNnpVucPObN1n0owNazy_pCr7fjR5rfFA3XR2vEI3z7HfpgIcgXaOUT6ioE2bU5H4qDhkGog5pPS3FpNU_-Ji1N74JtsnFgYwyXaNqiVjht6MNV_10hkG0Toy5Qy9zPh0PX_R2wqdQF_38y_a_GN4DcaCgYKAa8SARMSFQHGX2MiRzSW3Ggw7HS27KX4kX5jZA0178",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/userinfo.email",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjBlNzJkYTFkZjUwMWNhNmY3NTZiZjEwM2ZkN2M3MjAyOTQ3NzI1MDYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA2MTkzNTMwNjEyNzI3NDkzMjI0IiwiZW1haWwiOiJhYmhpLnNoYWtlLm5wQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoic3JEbGxTT2Npa01KcXZUQ3RxanIwdyIsImlhdCI6MTcwMDkxMDcxOCwiZXhwIjoxNzAwOTE0MzE4fQ.U5XhN4WMbFOiAc40MwZDA0Q8MzenrgTHPdXDKRaZzaTn4EYmzYYZN-OddO0OrPxj8KQIbDE6VIMvbkKNMESajnXtcNYeSVeCMdvdN9S1r96GAHlk8flln3dwPX9JT3Mc_iTYXOMCR45ywaA7dKbugkVR83nQHTdy2_N_MZBhSr24EQsRgOt-RXsec6AavwU1hNKkZ8EhVoE6GKMmfEqZu1Zirextj4tGcyvpvgSZPtJeH2Y3LfM_efU_8XD1Cv1QSXOy1sPpHWw6CVxN3faC0eOOhVMyCX6ogCddA1qPYlN3v9Zx8nCENwc1k3ujyVXRHsS9bUCcPC7tQYhRJpUITw"
+	}
+}

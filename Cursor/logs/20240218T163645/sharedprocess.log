@@ -1,0 +1,8 @@
+2024-02-18 16:36:47.795 [info] Deleted uninstalled extension from disk vscodevim.vim /home/abhi/.cursor/extensions/vscodevim.vim-1.27.2-universal
+2024-02-18 16:36:47.906 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/vscodevim.vim-1.27.2-universal.60219c0f.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhi/.cursor/extensions/vscodevim.vim-1.27.2-universal.60219c0f.vsctmp'
+    at r.create (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30445)
+    at o (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:50:30559)
+    at i.fb (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:36198)
+    at i.stat (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:28644)
+    at async E.stat (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:55:15754)
+    at async te.tb (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:30581)

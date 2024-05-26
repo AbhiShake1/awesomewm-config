@@ -1,0 +1,20 @@
+2024/05/19-19:59:47.631 15261 Creating DB /home/abhi/.config/Postman/Partitions/e76cfab7-baa4-48fe-9a27-835f0d0290d0/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb since it was missing.
+2024/05/19-19:59:47.635 15261 Reusing MANIFEST /home/abhi/.config/Postman/Partitions/e76cfab7-baa4-48fe-9a27-835f0d0290d0/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/19-19:59:47.652 14ffe Level-0 table #5: started
+2024/05/19-19:59:47.653 14ffe Level-0 table #5: 2312 bytes OK
+2024/05/19-19:59:47.654 14ffe Delete type=0 #3
+2024/05/19-19:59:47.654 15049 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/19-19:59:48.069 14ffe Level-0 table #7: started
+2024/05/19-19:59:48.069 14ffe Level-0 table #7: 1869 bytes OK
+2024/05/19-19:59:48.070 14ffe Delete type=0 #4
+2024/05/19-19:59:48.070 14ffe Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/19-19:59:48.072 14fe7 Level-0 table #9: started
+2024/05/19-19:59:48.073 14fe7 Level-0 table #9: 507 bytes OK
+2024/05/19-19:59:48.074 14fe7 Delete type=0 #6
+2024/05/19-19:59:48.074 14fe7 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 283 : 1
+2024/05/19-19:59:48.074 14fe7 Compacting 1@0 + 1@1 files
+2024/05/19-19:59:48.075 14fe7 Generated table #10@0: 106 keys, 1533 bytes
+2024/05/19-19:59:48.075 14fe7 Compacted 1@0 + 1@1 files => 1533 bytes
+2024/05/19-19:59:48.075 14fe7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/19-19:59:48.076 14fe7 Delete type=2 #9
+2024/05/19-19:59:48.076 14fe7 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 283 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,37 @@
+2024-02-18 16:23:18.220 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:430:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-02-18 16:23:18.450 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-02-18 16:24:21.610 [error] NoWorkspaceUriError
+2024-02-18 16:24:23.817 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:430:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)
+2024-02-18 16:24:24.060 [info] Creating merkle client.
+2024-02-18 16:24:24.060 [info] Done creating merkle client.
+2024-02-18 16:24:24.060 [info] Doing a startup handshake.
+2024-02-18 16:24:24.067 [info] Finished initializing merkle tree in 7.299703001976013 ms.
+2024-02-18 16:24:24.068 [info] Doing the initial handshake with hash: 8c94d97de64d80b77e0182a43fbed82b9b7a80c7fd4098082cdd66be43662060
+2024-02-18 16:24:24.088 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/abhi/.config/Cursor/User/workspaceStorage/fa2cf3ef600c6c30ae70e84d75188b53/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-02-18 16:24:24.147 [info] Running command: editHistoryDiffFormatter.ack with args: {}
+2024-02-18 16:24:25.725 [info] Handshake result:
+2024-02-18 16:24:25.725 [info] Starting fast remote sync.
+2024-02-18 16:24:25.725 [info] Total num embeddable files: 11
+2024-02-18 16:24:25.725 [info] Root hash: 8c94d97de64d80b77e0182a43fbed82b9b7a80c7fd4098082cdd66be43662060
+2024-02-18 16:24:25.725 [info] Starting repository upload from scratch.
+2024-02-18 16:24:25.726 [info] Uploading 11 files.
+2024-02-18 16:24:31.857 [info] Finished indexing repository.
+2024-02-18 16:24:31.857 [info] Indexing job successfully done or aborted.
+2024-02-18 16:24:31.896 [info] Running command: editHistoryDiffFormatter.getModelValue with args: {"relativePath":"examples/explaining_code.c"}
+2024-02-18 16:24:31.957 [info] Running command: editHistoryDiffFormatter.initModel with args: {"relativePath":"examples/explaining_code.c","currentModelValue":"// Example: Explaining Code\n\n\n\n\n\n\n\n\n\n/* Simply, ask the chat (Cmd+L/Ctrl+L) what this code does. */\n\n\n\n\n\n\n\n#include <stdio.h>\n#include <unistd.h> \n#include <stdlib.h>\n\ntypedef struct block_metadata {\n   struct block_metadata *prev;\n   struct block_metadata *next;\n   size_t size;\n} block;\n\nblock *head = NULL;\n\n#ifndef ALLOC_UNIT\n#define ALLOC_UNIT 3*sysconf( _SC_PAGESIZE )\n#endif\n\n#ifndef MIN_DEALLOC\n#define MIN_DEALLOC 1 * sysconf(_SC_PAGESIZE)\n#endif\n\n#define BLOCK_MEM( ptr ) ( void * )( (unsigned long)ptr + sizeof( block ) )\n#define BLOCK_HEADER( ptr ) ( void * )( (unsigned long)ptr - sizeof( block ) )\n\nvoid stats( char * stage ) {\n   printf( \"Program break at %s : %ld \\n\", stage, sbrk( 0 ) );\n\n   block *ptr = head;\n   while( ptr ) {\n      printf( \"block addr: %ld, size: %ld \\n\", ptr, ptr->size );\n      ptr = ptr->next;\n   }\n}\n\nblock * splitBlock( block *b, size_t size ) {\n   block *newBlock;\n   newBlock = (block *) ( (unsigned long)b + sizeof( block ) + size );\n   newBlock->size = b->size - ( sizeof( block ) + size );\n   b->size = size;\n   return newBlock;\n}\n\nvoid addToFreeList( block *freeBlock ) {\n   printf( \"Adding %ld with size %ld to free list \\n\", freeBlock,\n           freeBlock->size );\n   freeBlock->next = NULL;\n   freeBlock->prev = NULL;\n   if( !head || (unsigned long) head >= (unsigned long) freeBlock ) {\n      if( head ) {\n         head->prev = freeBlock;\n      }\n      freeBlock->next = head;\n      head = freeBlock;\n      return;\n   }\n\n   block *ptr = head;\n   while( ptr->next && (unsigned long) ptr->next < (unsigned long) freeBlock ) {\n      ptr = ptr->next;\n   }\n   freeBlock->next = ptr->next;\n   freeBlock->prev = ptr;\n   ( ptr->next )->prev = freeBlock;\n   ptr->next = freeBlock;\n   return;\n}\n\nvoid removeFromFreeList( block * b ) {\n   if( !b->prev ) {\n      if( b->next ) {\n         head = b->next;\n      } else {\n         head = NULL;\n      }\n   } else {\n      b->prev->next = b->next;\n   }\n   if( b->next ) {  \n      b->next->prev = b->prev;\n   }\n}\n\nvoid * _malloc( size_t size ) {\n   block *ptr = head;\n   while( ptr ) {\n      if( ptr->size >= size ) {\n         removeFromFreeList( ptr );\n         if( ptr->size == size ) {\n            return BLOCK_MEM( ptr );\n         }\n         block *newBlock = splitBlock( ptr, size );\n         addToFreeList( newBlock );\n         return BLOCK_MEM( ptr );\n      }\n      ptr = ptr->next;\n   }\n\n   size_t alloc_size;\n   if( size >= ALLOC_UNIT ) {\n      alloc_size = size + sizeof( block );\n   } else {\n      alloc_size = ALLOC_UNIT;\n   }\n\n   ptr = sbrk( alloc_size );\n   if( !ptr ) {\n      printf( \"Failed to alloc %d \\n\", alloc_size );\n   }\n   ptr->prev = NULL;\n   ptr->next = NULL;\n   ptr->size = alloc_size - sizeof( block );\n\n   if( alloc_size > size + sizeof( block ) ){\n      block *newBlock = splitBlock( ptr, size );\n      addToFreeList( newBlock );\n   }\n   return BLOCK_MEM( ptr );\n}\n\nvoid scanAndCoalesce() {\n   block *curr = head;\n   unsigned long curr_addr, next_addr;\n   while( curr->next ) {\n      curr_addr = ( unsigned long ) curr;\n      next_addr = ( unsigned long ) curr->next;\n      if( curr_addr + sizeof( block ) + curr->size == next_addr ) {\n         curr->size += curr->next->size + sizeof( block );\n         curr->next = curr->next->next;\n         if( curr->next->next ) {\n            curr->next->next->prev = curr;\n         } else {\n            break;\n         }\n      }\n      curr = curr->next;\n   }\n   stats( \"after merge\" );\n   unsigned long program_break = (unsigned long) sbrk(0);\n   if( program_break == 0 ) {\n      printf( \"failed to retrive program break\\n\" );\n      return;\n   }\n   curr_addr = ( unsigned long ) curr;\n   if( curr_addr + curr->size + sizeof( block ) == program_break\n       && curr->size >= MIN_DEALLOC ) {\n      removeFromFreeList( curr );\n      if( brk( curr ) != 0 ) {\n         printf( \"error freeing memory \\n\" );\n      }\n   }\n}\n\nvoid _free( void * addr ) {\n   block *block_addr = BLOCK_HEADER( addr );\n   addToFreeList( block_addr );\n   stats( \"before coalesing \" );\n   scanAndCoalesce();\n}\n\nvoid cleanup() {\n   printf( \"Cleaning up memory ...\\n\" );\n   if( head != NULL ) {\n      if( brk( head ) != 0 ) {\n         printf( \"Failed to cleanup memory\" );\n      }\n   }\n   head = NULL;\n}\n\nint main() {\n   atexit( cleanup );\n\n   printf( \"Malloc implementation\\n\" );\n\n   stats( \"beginning\" );\n   int *p1 =_malloc( 64 );\n   stats( \"after allocating 64 bytes\" );\n   int *p2 = _malloc( 1 );\n   _free( p1 );\n   return 0;\n}"}
+2024-02-18 16:24:44.556 [info] Running command: editHistoryDiffFormatter.getModelValue with args: {"relativePath":"searchinput"}
+2024-02-18 16:24:44.586 [info] Running command: editHistoryDiffFormatter.initModel with args: {"relativePath":"searchinput","currentModelValue":""}

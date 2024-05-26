@@ -1,0 +1,21 @@
+2024/05/15-04:42:35.733 135bb Reusing MANIFEST /home/abhi/.config/Postman/Partitions/3f20fa29-a18a-4ef8-ba42-aa902dcc16f9/Local Storage/leveldb/MANIFEST-000001
+2024/05/15-04:42:35.734 135bb Recovering log #38
+2024/05/15-04:42:35.734 135bb Reusing old log /home/abhi/.config/Postman/Partitions/3f20fa29-a18a-4ef8-ba42-aa902dcc16f9/Local Storage/leveldb/000038.log 
+2024/05/15-05:08:49.917 13c04 Level-0 table #42: started
+2024/05/15-05:08:49.918 13c04 Level-0 table #42: 20983 bytes OK
+2024/05/15-05:08:49.919 13c04 Delete type=0 #38
+2024/05/15-05:51:49.832 14170 Level-0 table #44: started
+2024/05/15-05:51:49.834 14170 Level-0 table #44: 16362 bytes OK
+2024/05/15-05:51:49.835 14170 Delete type=0 #41
+2024/05/15-13:56:59.454 144ae Level-0 table #46: started
+2024/05/15-13:56:59.456 144ae Level-0 table #46: 18800 bytes OK
+2024/05/15-13:56:59.458 144ae Delete type=0 #43
+2024/05/15-13:56:59.458 144ae Compacting 4@0 + 1@1 files
+2024/05/15-13:56:59.459 144ae Generated table #47@0: 43 keys, 3801 bytes
+2024/05/15-13:56:59.459 144ae Compacted 4@0 + 1@1 files => 3801 bytes
+2024/05/15-13:56:59.460 144ae compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/15-13:56:59.460 144ae Delete type=2 #36
+2024/05/15-13:56:59.460 144ae Delete type=2 #46
+2024/05/15-13:56:59.460 144ae Delete type=2 #44
+2024/05/15-13:56:59.460 144ae Delete type=2 #39
+2024/05/15-13:56:59.460 144ae Delete type=2 #42

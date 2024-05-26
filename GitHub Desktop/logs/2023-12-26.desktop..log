@@ -1,0 +1,10 @@
+2023-12-26T13:41:03.035Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 5.995s)
+2023-12-26T14:14:44.536Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.024s)
+2023-12-26T14:46:51.179Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.024s)
+2023-12-26T14:46:52.199Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.012s)
+2023-12-26T14:48:48.013Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.0s of which 1318.4s paused, total 1320.4s
+2023-12-26T14:48:49.833Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-12-26T15:20:14.639Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-26T15:20:16.087Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2023-12-26T15:22:58.369Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.221s)
+2023-12-26T15:22:59.472Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.096s)

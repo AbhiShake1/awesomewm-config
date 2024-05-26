@@ -1,0 +1,67 @@
+2023-12-23T04:26:29.025Z - info: [ui] [AppStore] loading 4 repositories from store
+2023-12-23T04:26:29.028Z - info: [ui] [AppStore] found account: AbhiShake1 (onFire(Abhi))
+2023-12-23T04:26:29.284Z - info: [ui] launching: 3.3.3-linux2 (Linux 6.5.8-arch1-1)
+2023-12-23T04:26:29.285Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-12-23T04:26:29.994Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2023-12-23T04:26:30.390Z - info: [ui] Stats reported.
+2023-12-23T04:26:31.904Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.081s)
+2023-12-23T04:27:48.599Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:27:52.263Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:27:54.596Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:27:56.592Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:27:58.707Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:28:01.286Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:28:10.008Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:28:12.824Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:28:19.501Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:28:29.457Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.7s of which 0.0s paused, total 1.7s
+2023-12-23T04:28:37.453Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:28:39.677Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:28:50.294Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:30:47.388Z - info: [ui] [Timing] Action 'create commit' for 'AbhiShake1/myfyp' took 0.098s
+2023-12-23T04:30:49.284Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:30:51.488Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.196s)
+2023-12-23T04:30:52.544Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.054s)
+2023-12-23T04:44:26.597Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.8s of which 0.0s paused, total 1.8s
+2023-12-23T04:47:44.825Z - info: [ui] [Timing] Action 'create commit' for 'AbhiShake1/myfyp' took 0.120s
+2023-12-23T04:47:46.312Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T04:47:48.502Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.183s)
+2023-12-23T04:47:49.558Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.054s)
+2023-12-23T04:47:50.580Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.021s)
+2023-12-23T07:08:10.118Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.158s)
+2023-12-23T07:08:11.174Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.054s)
+2023-12-23T07:19:59.481Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.2s of which 0.0s paused, total 2.2s
+2023-12-23T07:38:23.062Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.035s)
+2023-12-23T07:38:24.174Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.105s)
+2023-12-23T09:17:39.254Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.081s)
+2023-12-23T09:17:40.279Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.017s)
+2023-12-23T09:47:52.419Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.048s)
+2023-12-23T09:47:53.446Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.020s)
+2023-12-23T12:06:54.016Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.016s)
+2023-12-23T12:06:55.043Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.020s)
+2023-12-23T12:23:49.129Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.0s of which 0.0s paused, total 2.0s
+2023-12-23T12:37:07.699Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.171s)
+2023-12-23T12:37:08.808Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.108s)
+2023-12-23T13:07:21.004Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.019s)
+2023-12-23T13:07:22.229Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.218s)
+2023-12-23T13:21:02.273Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.7s of which 2257.6s paused, total 2260.3s
+2023-12-23T13:21:04.091Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-12-23T13:37:34.712Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.064s)
+2023-12-23T14:20:55.004Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.8s of which 0.0s paused, total 1.8s
+2023-12-23T14:21:04.618Z - info: [ui] [Timing] Action 'create commit' for 'AbhiShake1/myfyp' took 0.200s
+2023-12-23T14:21:05.598Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: myfyp - AbhiShake1 (has token)
+2023-12-23T14:21:07.592Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.988s)
+2023-12-23T14:21:08.618Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.024s)
+2023-12-23T14:21:09.640Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.021s)
+2023-12-23T14:24:36.755Z - info: [ui] [BranchPruner] Last prune took place 10 hours ago - skipping
+2023-12-23T14:51:33.471Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.335s)
+2023-12-23T14:51:34.495Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.015s)
+2023-12-23T15:21:55.082Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.104s)
+2023-12-23T16:39:12.612Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.012s)
+2023-12-23T16:39:13.633Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.012s)
+2023-12-23T17:09:25.499Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.020s)
+2023-12-23T17:09:26.524Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.018s)
+2023-12-23T17:39:38.061Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.113s)
+2023-12-23T17:39:39.185Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.117s)
+2023-12-23T17:49:15.719Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.1s of which 11266.6s paused, total 11268.8s
+2023-12-23T18:09:51.590Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.062s)

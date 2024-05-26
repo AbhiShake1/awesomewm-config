@@ -1,0 +1,5 @@
+2024-01-01T15:38:10.354Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.004s)
+2024-01-01T16:09:07.726Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.322s)
+2024-01-01T16:09:08.943Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.208s)
+2024-01-01T16:26:18.508Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2024-01-01T16:26:19.802Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch

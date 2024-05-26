@@ -1,0 +1,20 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/proj/flutter/edm_flutter" value="true" />
+        <entry key="$USER_HOME$/proj/flutter/macros" value="true" />
+        <entry key="$USER_HOME$/proj/flutter/otto" value="true" />
+        <entry key="$USER_HOME$/proj/svelte/tuktuk" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/proj/flutter" />
+        <option value="$USER_HOME$/proj/svelte" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,74 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/proj/svelte/tuktuk">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tuktuk – package.json" projectWorkspaceId="2Yi7e8J2MK9CZ8hgS8M4rHHYI4Q">
+              <option name="activationTimestamp" value="1700996639065" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-223.8836.35.2231.11090377" />
+              <option name="buildTimestamp" value="1699907311025" />
+              <frame x="-1" y="-1" width="1922" height="1202" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1700996639016" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/proj/flutter/otto">
+          <value>
+            <RecentProjectMetaInfo frameTitle="otto – find_otto_page.dart [otto]" projectWorkspaceId="2YemEXq74wKp9g9sCeP5rtsmnbq">
+              <option name="activationTimestamp" value="1703900574193" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-223.8836.35.2231.11090377" />
+              <option name="buildTimestamp" value="1699907333633" />
+              <frame x="0" y="41" width="1920" height="1159" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1703900521945" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/proj/flutter/dummy">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dummy – home_screen.dart" projectWorkspaceId="2cDg3X82vCiZiByyRJDQaoHpxTe">
+              <option name="activationTimestamp" value="1707656201971" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-223.8836.35.2231.11090377" />
+              <option name="buildTimestamp" value="1699907306065" />
+              <frame x="0" y="41" width="1920" height="1159" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1707651364833" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/proj/flutter/edm_flutter">
+          <value>
+            <RecentProjectMetaInfo frameTitle="edm_flutter – macro.dart" opened="true" projectWorkspaceId="2aF3PDxi7ZJvwuUKhBcqXgQ7CLK">
+              <option name="activationTimestamp" value="1708751746006" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-223.8836.35.2231.11090377" />
+              <option name="buildTimestamp" value="1699907301202" />
+              <frame x="0" y="41" width="1920" height="1159" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1708751245447" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/proj/flutter/macros">
+          <value>
+            <RecentProjectMetaInfo frameTitle="macros – bin/model.dart" opened="true" projectWorkspaceId="2cnezOBdVJQn1OAafQjioCI7agZ">
+              <option name="activationTimestamp" value="1708838986384" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-223.8836.35.2231.11090377" />
+              <option name="buildTimestamp" value="1699907334440" />
+              <frame x="-1" y="-1" width="1922" height="1202" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1708834378768" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/proj/flutter/macros" />
+  </component>
+</application>

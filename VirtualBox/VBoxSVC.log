@@ -1,0 +1,247 @@
+00:00:00.007730 main     VirtualBox XPCOM Server 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.007863 main     Log opened 2024-01-04T16:20:04.172364000Z
+00:00:00.007884 main     Build Type: release
+00:00:00.007911 main     OS Product: Linux
+00:00:00.007937 main     OS Release: 6.5.8-arch1-1
+00:00:00.007952 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 19 Oct 2023 22:52:14 +0000
+00:00:00.008239 main     DMI Product Name: ROG Flow X13 GV301QE_GV301QE
+00:00:00.008358 main     DMI Product Version: 1.0       
+00:00:00.008403 main     Firmware type: UEFI
+00:00:00.010845 main     Secure Boot: Disabled
+00:00:00.011421 main     Host RAM: 15394MB (15.0GB) total, 14177MB (13.8GB) available
+00:00:00.011455 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.011465 main     Process ID: 2262
+00:00:00.011476 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.031400 main     IPC socket path: /tmp/.vbox-abhi-ipc/ipcd
+00:00:00.205109 nspr-2   VirtualBox: object creation starts
+00:00:00.210942 nspr-2   Home directory: '/home/abhi/.config/VirtualBox'
+00:00:00.213493 nspr-2   Loading settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.410898 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp6s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.448575 nspr-2   HostDnsMonitor: initializing
+00:00:00.451059 nspr-2   NAT: resolv.conf: nameserver 192.168.18.1
+00:00:00.451457 nspr-2   HostDnsMonitor: updating information
+00:00:00.451612 nspr-2   HostDnsMonitor: old information
+00:00:00.451654 nspr-2     no server entries
+00:00:00.451698 nspr-2     no domain set
+00:00:00.451738 nspr-2     no search string entries
+00:00:00.451820 nspr-2   HostDnsMonitor: new information
+00:00:00.451859 nspr-2     server 1: 192.168.18.1
+00:00:00.451906 nspr-2     no domain set
+00:00:00.451946 nspr-2     no search string entries
+00:00:00.487180 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.491997 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.516436 nspr-2   Loading settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox" with version "1.19-linux"
+00:00:00.526616 nspr-2   VirtualBox: object created
+00:00:10.915029 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:10.944919 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:11.651269 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:13.850731 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:13.876039 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:16.860703 nspr-5   Launched VM: 1543510288 pid: 2500 (0x9c4) frontend: GUI/Qt name: windows
+00:00:17.242147 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:17.624590 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:17.649220 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:20.432204 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:20.757066 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:20.782327 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:28.417698 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:28.441747 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:28.449388 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:29.275170 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:29.299370 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:29.576704 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:30.170491 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp6s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:30.352017 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:30.377855 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:30.382401 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:30.564371 nspr-3   Saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:30.588355 nspr-3   Finished saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml"
+00:00:30.811420 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:31.036588 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:31.077986 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:31.507721 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:31.533714 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:31.942010 nspr-4   Saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox" with version "1.19-linux"
+00:00:32.023986 nspr-4   Finished saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox"
+00:00:32.232898 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:32.548748 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:32.574060 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:33.338580 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:33.364554 nspr-2   Saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox" with version "1.19-linux"
+00:00:33.373827 nspr-2   Finished saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox"
+00:00:33.987390 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:34.174562 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:34.602241 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:34.629344 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:11.808249 nspr-6   Saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox" with version "1.19-linux"
+00:01:11.827850 nspr-6   Finished saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox"
+00:01:12.134627 nspr-4   Saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:12.142971 nspr-4   Finished saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml"
+00:01:12.354319 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:13.004183 nspr-4   Saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox" with version "1.19-linux"
+00:01:13.023937 nspr-4   Finished saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox"
+00:01:13.154239 nspr-4   Saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:13.173279 nspr-4   Finished saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml"
+00:01:13.249152 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:13.664682 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:13.691218 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:16.840722 nspr-5   Saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox" with version "1.19-linux"
+00:01:16.860438 nspr-5   Finished saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox"
+00:01:17.096460 nspr-8   Saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:17.114945 nspr-8   Finished saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml"
+00:01:17.352911 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:17.768487 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:17.794477 nspr-9   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:46.630739 nspr-4   Saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:46.641188 nspr-4   Finished saving settings file "/home/abhi/.config/VirtualBox/VirtualBox.xml"
+00:01:46.644665 nspr-4   Saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox" with version "1.19-linux"
+00:01:46.653127 nspr-4   Finished saving settings file "/home/abhi/VirtualBox VMs/windows/windows.vbox"
+00:01:46.675693 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:47.161610 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:47.569915 nspr-9   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:47.590788 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:53:44.545478 MainPower Host suspending: Paused 1 VMs
+00:53:44.855646 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:53:44.940289 dns-monitor HostDnsMonitor: updating information
+00:53:44.940537 dns-monitor HostDnsMonitor: old information
+00:53:44.940694 dns-monitor   server 1: 192.168.18.1
+00:53:44.940880 dns-monitor   no domain set
+00:53:44.940966 dns-monitor   no search string entries
+00:53:44.941015 dns-monitor HostDnsMonitor: new information
+00:53:44.941058 dns-monitor   no server entries
+00:53:44.941300 dns-monitor   no domain set
+00:53:44.941394 dns-monitor   no search string entries
+00:53:45.024211 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:53:45.474925 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:53:45.500369 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:53:46.928159 MainPower Host resumed: Resumed 1 VMs
+00:53:47.413513 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:53:47.530735 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:47.907282 nspr-9   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:53:47.921373 nspr-9   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:53:51.734521 dns-monitor NAT: resolv.conf: nameserver 192.168.18.1
+00:53:51.734872 dns-monitor HostDnsMonitor: updating information
+00:53:51.734955 dns-monitor HostDnsMonitor: old information
+00:53:51.735022 dns-monitor   no server entries
+00:53:51.735104 dns-monitor   no domain set
+00:53:51.735171 dns-monitor   no search string entries
+00:53:51.735250 dns-monitor HostDnsMonitor: new information
+00:53:51.735345 dns-monitor   server 1: 192.168.18.1
+00:53:51.735437 dns-monitor   no domain set
+00:53:51.735546 dns-monitor   no search string entries
+01:05:05.277708 MainPower Host suspending: Paused 1 VMs
+01:05:05.562552 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:05:05.572455 dns-monitor HostDnsMonitor: updating information
+01:05:05.572752 dns-monitor HostDnsMonitor: old information
+01:05:05.572803 dns-monitor   server 1: 192.168.18.1
+01:05:05.572854 dns-monitor   no domain set
+01:05:05.572897 dns-monitor   no search string entries
+01:05:05.572945 dns-monitor HostDnsMonitor: new information
+01:05:05.572989 dns-monitor   no server entries
+01:05:05.573032 dns-monitor   no domain set
+01:05:05.573072 dns-monitor   no search string entries
+01:05:05.730878 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:05:06.245715 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:05:06.267889 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:05:07.418767 MainPower Host resumed: Resumed 1 VMs
+01:05:07.972664 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:05:08.101951 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:08.477024 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:05:08.493629 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:05:14.648227 dns-monitor NAT: resolv.conf: nameserver 192.168.18.1
+01:05:14.648658 dns-monitor HostDnsMonitor: updating information
+01:05:14.648771 dns-monitor HostDnsMonitor: old information
+01:05:14.648873 dns-monitor   no server entries
+01:05:14.648966 dns-monitor   no domain set
+01:05:14.649082 dns-monitor   no search string entries
+01:05:14.649189 dns-monitor HostDnsMonitor: new information
+01:05:14.649296 dns-monitor   server 1: 192.168.18.1
+01:05:14.649378 dns-monitor   no domain set
+01:05:14.649485 dns-monitor   no search string entries
+01:06:00.255141 MainPower Host suspending: Paused 1 VMs
+01:06:00.578012 dns-monitor HostDnsMonitor: updating information
+01:06:00.578334 dns-monitor HostDnsMonitor: old information
+01:06:00.578410 dns-monitor   server 1: 192.168.18.1
+01:06:00.578505 dns-monitor   no domain set
+01:06:00.578570 dns-monitor   no search string entries
+01:06:00.578623 dns-monitor HostDnsMonitor: new information
+01:06:00.578695 dns-monitor   no server entries
+01:06:00.578772 dns-monitor   no domain set
+01:06:00.578843 dns-monitor   no search string entries
+01:06:00.603015 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:06:00.781825 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:06:01.242067 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:06:01.265608 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:06:02.569805 MainPower Host resumed: Resumed 1 VMs
+01:06:03.085162 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:06:03.202007 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:06:03.567017 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:06:03.582461 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:06:07.278948 dns-monitor NAT: resolv.conf: nameserver 192.168.18.1
+01:06:07.279228 dns-monitor HostDnsMonitor: updating information
+01:06:07.279313 dns-monitor HostDnsMonitor: old information
+01:06:07.279398 dns-monitor   no server entries
+01:06:07.279464 dns-monitor   no domain set
+01:06:07.279529 dns-monitor   no search string entries
+01:06:07.279592 dns-monitor HostDnsMonitor: new information
+01:06:07.279656 dns-monitor   server 1: 192.168.18.1
+01:06:07.279729 dns-monitor   no domain set
+01:06:07.279792 dns-monitor   no search string entries
+01:07:11.800839 MainPower Host suspending: Paused 1 VMs
+01:07:12.070883 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:12.164729 dns-monitor HostDnsMonitor: updating information
+01:07:12.164994 dns-monitor HostDnsMonitor: old information
+01:07:12.165047 dns-monitor   server 1: 192.168.18.1
+01:07:12.165100 dns-monitor   no domain set
+01:07:12.165145 dns-monitor   no search string entries
+01:07:12.165189 dns-monitor HostDnsMonitor: new information
+01:07:12.165232 dns-monitor   no server entries
+01:07:12.165274 dns-monitor   no domain set
+01:07:12.165315 dns-monitor   no search string entries
+01:07:12.235181 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:07:12.741136 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:12.766078 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:14.185307 MainPower Host resumed: Resumed 1 VMs
+01:07:14.792528 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:14.912803 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:07:15.322808 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:15.338937 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:18.945307 dns-monitor NAT: resolv.conf: nameserver 192.168.18.1
+01:07:18.945672 dns-monitor HostDnsMonitor: updating information
+01:07:18.945794 dns-monitor HostDnsMonitor: old information
+01:07:18.945900 dns-monitor   no server entries
+01:07:18.945994 dns-monitor   no domain set
+01:07:18.946099 dns-monitor   no search string entries
+01:07:18.946215 dns-monitor HostDnsMonitor: new information
+01:07:18.946323 dns-monitor   server 1: 192.168.18.1
+01:07:18.946422 dns-monitor   no domain set
+01:07:18.946539 dns-monitor   no search string entries
+01:07:42.733606 MainPower Host suspending: Paused 1 VMs
+01:07:42.970790 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:43.127841 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:07:43.183051 dns-monitor HostDnsMonitor: updating information
+01:07:43.183228 dns-monitor HostDnsMonitor: old information
+01:07:43.183286 dns-monitor   server 1: 192.168.18.1
+01:07:43.183356 dns-monitor   no domain set
+01:07:43.183402 dns-monitor   no search string entries
+01:07:43.183450 dns-monitor HostDnsMonitor: new information
+01:07:43.183497 dns-monitor   no server entries
+01:07:43.183538 dns-monitor   no domain set
+01:07:43.183578 dns-monitor   no search string entries
+01:07:43.579896 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:43.603648 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:45.025455 MainPower Host resumed: Resumed 1 VMs
+01:07:45.552171 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:45.705422 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:07:46.209198 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:46.225769 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:07:52.368709 dns-monitor NAT: resolv.conf: nameserver 192.168.18.1
+01:07:52.368988 dns-monitor HostDnsMonitor: updating information
+01:07:52.369075 dns-monitor HostDnsMonitor: old information
+01:07:52.369180 dns-monitor   no server entries
+01:07:52.369293 dns-monitor   no domain set
+01:07:52.369379 dns-monitor   no search string entries
+01:07:52.369487 dns-monitor HostDnsMonitor: new information
+01:07:52.369591 dns-monitor   server 1: 192.168.18.1
+01:07:52.369689 dns-monitor   no domain set
+01:07:52.369794 dns-monitor   no search string entries

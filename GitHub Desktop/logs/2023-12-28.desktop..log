@@ -1,0 +1,2 @@
+2023-12-28T01:19:51.170Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.902s)
+2023-12-28T01:19:52.401Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.224s)

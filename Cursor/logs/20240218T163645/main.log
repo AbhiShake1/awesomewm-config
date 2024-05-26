@@ -1,0 +1,33 @@
+2024-02-18 16:36:45.898 [info] update#setState disabled
+2024-02-18 16:36:45.905 [info] update#ctor - updates are disabled as there is no update URL
+2024-02-18 16:36:45.946 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-02-18 16:36:45.946 [error] [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+2024-02-18 16:36:45.950 [error] [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+2024-02-18 16:36:45.950 [error] Error: SQLITE_CANTOPEN: unable to open database file
+2024-02-18 16:36:47.259 [error] vscode-file: Refused to load resource /tmp/.mount_cursorV5MBow/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursorV5MBow/resources/app/extensions/theme-seti/icons/seti.woff)
+2024-02-18 16:36:53.004 [info] Extension host with pid 615987 exited with code: 0, signal: unknown.
+2024-02-18 16:36:53.013 [info] Extension host with pid 615962 exited with code: 0, signal: unknown.
+2024-02-18 16:36:53.014 [error] [uncaught exception in main]: Error: write EIO
+2024-02-18 16:36:53.014 [error] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:930:11)
+    at Socket._write (node:net:942:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:300:16)
+    at console.log (node:internal/console/constructor:377:26)
+    at k.info (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:61:2511)
+    at a.info (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:61:4331)
+    at n.info (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:61:43960)
+    at $.value (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:107:57813)
+    at o.y (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:35:1902)
+    at o.z (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:35:1972)
+    at o.fire (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:35:2188)
+    at $.value (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:107:54812)
+    at o.y (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:35:1902)
+    at o.fire (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:35:2119)
+    at ForkUtilityProcess.be (/tmp/.mount_cursorkneojx/resources/app/out/vs/code/electron-main/main.js:33:31191)
+    at ForkUtilityProcess.emit (node:events:513:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:75541)

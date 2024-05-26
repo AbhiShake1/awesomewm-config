@@ -1,0 +1,40 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1200" x="960" y="601" />
+    <location key="find.popup.0.0.1920.1200" x="832" y="293" />
+    <size key="find.popup.0.0.1920.1200" width="1059" height="512" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1200" width="1872" height="629" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1200" width="1872" height="629" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1200" width="1872" height="629" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1200" width="1872" height="629" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1200" width="1872" height="435" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1200" width="1872" height="435" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1200" width="1872" height="435" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1200" width="1872" height="435" />
+  </component>
+  <component name="WindowManager">
+    <frame x="-1" y="-1" width="1922" height="1202" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="748" y="393" width="426" height="456" key="FileChooserDialogImpl" timestamp="1700894304872">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="748" y="393" width="426" height="456" key="FileChooserDialogImpl/0.0.1920.1200" timestamp="1700894304872" />
+    <state x="1156" y="955" width="706" height="187" key="ProcessPopupWindow" timestamp="1708766638826">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1156" y="955" width="706" height="187" key="ProcessPopupWindow/0.0.1920.1200" timestamp="1708766638826" />
+    <state width="784" height="116" key="ShowUsagesActions.dimensionServiceKey" timestamp="1708751510425">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="784" height="116" key="ShowUsagesActions.dimensionServiceKey/0.0.1920.1200" timestamp="1708751510425" />
+    <state x="1440" y="620" width="960" height="1159" key="WELCOME_SCREEN" timestamp="1700894307225">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1440" y="620" width="960" height="1159" key="WELCOME_SCREEN/0.0.1920.1200" timestamp="1700894307225" />
+    <state x="560" y="320" key="new project wizard" timestamp="1700894233405">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="320" key="new project wizard/0.0.1920.1200" timestamp="1700894233405" />
+  </component>
+</application>

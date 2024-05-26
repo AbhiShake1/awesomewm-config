@@ -1,0 +1,61 @@
+2024-03-06T16:30:40.669Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-03-06T16:30:40.670Z - info: [ui] [AppStore] found account: AbhiShake1 (onFire(Abhi))
+2024-03-06T16:30:41.063Z - info: [ui] launching: 3.3.8-linux2 (Linux 6.5.8-arch1-1)
+2024-03-06T16:30:41.063Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-03-06T16:30:41.986Z - info: [ui] Stats reported.
+2024-03-06T16:30:42.111Z - info: [ui] Subscribed 'AbhiShake1' to Alive channel
+2024-03-06T16:31:03.298Z - info: [ui] [AppStore] adding repository at /home/abhi/proj/next/art-floyd to store
+2024-03-06T16:31:15.711Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kyanite-Nepal - AbhiShake1 (has token)
+2024-03-06T16:31:17.364Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.650s)
+2024-03-06T16:31:18.999Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.634s)
+2024-03-06T16:31:22.057Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.337s)
+2024-03-06T16:31:22.057Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-03-06T16:31:24.105Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.047s)
+2024-03-06T16:31:24.391Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 2.828s)
+2024-03-06T16:31:24.717Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: art-floyd - AbhiShake1 (has token)
+2024-03-06T16:31:24.717Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 8 repositories took 12.1s of which 0.0s paused, total 12.1s
+2024-03-06T16:31:25.094Z - info: [ui] [BranchPruner] No branches to prune.
+2024-03-06T16:31:26.362Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.969s)
+2024-03-06T16:31:28.512Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.148s)
+2024-03-06T17:05:14.020Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.293s)
+2024-03-06T17:05:16.271Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.250s)
+2024-03-06T18:52:58.901Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.240s)
+2024-03-06T18:52:58.901Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sageflick/edm_flutter.git/'
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-03-06T18:53:00.986Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.083s)
+2024-03-06T18:57:08.422Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.165s)
+2024-03-06T18:57:10.776Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.353s)
+2024-03-06T19:00:06.095Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 8 repositories took 10.1s of which 7003.3s paused, total 7013.3s
+2024-03-06T19:32:00.901Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.298s)
+2024-03-06T19:32:03.201Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.298s)
+2024-03-06T20:08:02.602Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.044s)
+2024-03-06T20:08:04.542Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.938s)
+2024-03-06T20:41:40.310Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 2.085s)
+2024-03-06T20:41:42.467Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 2.155s)
